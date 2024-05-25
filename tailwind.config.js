@@ -15,15 +15,14 @@ module.exports = {
         lightPink: '#E5E5E5',
         lightBlack: '#1E1E1E',
         lightCreem: '#A5A5A5',
-        
-              
+        skyWhit: '#F9FBFF',              
+        black2: '#101010',              
       },
       backgroundImage: {
          CommonGradient:
          "linear-gradient(294.21deg, #034BDA 4.27%, #33A8FF 73.84%)",
          
-      },
-     
+      },    
 
       fontFamily: {
         Inter: "Inter, sans-serif",
