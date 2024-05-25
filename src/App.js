@@ -1,8 +1,8 @@
-import logo from './logo.svg';
 import './App.css';
 import Money from './components/Money';
 import Navsection from './components/Navsection';
 import Slidersection from './components/Slidersection';
+import Nvda from './components/Nvda';
 
 function App() {
   return (
@@ -10,6 +10,7 @@ function App() {
       <Navsection/>
       <Slidersection/>
       <Money/>
+      <Nvda/>
     </div>
   );
 }
