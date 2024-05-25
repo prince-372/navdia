@@ -10,6 +10,7 @@ module.exports = {
          "linear-gradient(294.21deg, #034BDA 4.27%, #33A8FF 73.84%)",
       },
      
+      
       fontFamily: {
         Inter: "Inter, sans-serif",
         Open: "Open Sans, sans-serif",
