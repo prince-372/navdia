@@ -5,18 +5,18 @@ import { Bigcircleright, Smallcircleright } from "./Icons";
 
 const Money = () => {
   return (
-    <div className="pt-[172px] relative overflow-x">
-        <span className=" absolute top-[20%] right-[-5%]">
+    <div className="pt-[172px] relative overflow-x pb-[53px]">
+        <span className=" absolute top-[17%] md:right-[-5%] sm:right-[-8%] right-[-14%]">
             <Smallcircleright />
         </span>
-        <span className=" absolute top-[-3%] right-[-12%]">
+        <span className=" absolute lg:top-[-3%] sm:top-[-2%] top-[0] xl:right-[-12%] lg:right-[-13%] md:right-[-15%] sm:right-[-23%] right-[-31%]">
             <Bigcircleright/>
         </span>
       <div className=" container px-3 mx-auto">
         <div className=" flex justify-center">
           <img src={moneySvg} alt="moneySvg" />
         </div>
-        <p className=" font-medium font-Inter text-[32px] leading-[41px] max-w-[849px] mx-auto text-center italic pt-[22px]">
+        <p className=" font-medium font-Inter sm:text-[32px] text-[26px] sm:leading-[41px] leading-[36px] max-w-[849px] mx-auto text-center italic pt-[22px]">
           Analysts continue to remain positive on <span className=" font-bold">Nvidia stock</span>. Prior to the
           earnings, five large brokerages raised their target price on the
           company's shares.
