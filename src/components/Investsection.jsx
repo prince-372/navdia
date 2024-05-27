@@ -2,6 +2,7 @@ import React from 'react'
 import investCard1 from '../assets/image/png/investCardImg1.png'
 import investCard2 from '../assets/image/png/investCardImg2.png'
 import investCard3 from '../assets/image/png/investCardImg3.png'
+import Commanbtn from './Commanbtn'
 
 const Investsection = () => {
         const Items = [
@@ -30,15 +31,19 @@ const Investsection = () => {
                 <div className='pt-[136px]'>
                         <div className=' container mx-auto px-3 '>
                                 <h2 className=' text-center pb-[60px] font-Inter font-bold text-[44px] leading-[57px]'>Why Invest in Nvidia Stock</h2>
-                                <div className=' grid grid-cols-3 gap-6 '>
+                                <div className=' grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 '>
                                         {
                                                 Items.map((items, index) => (
-                                                        <div key={index} className=' mx-auto bg-skyWhit border border-solid border-skyDarkBlue w-[364px] h-[356px] rounded-[12px] p-[24px_16px_32px_21px]'>
+                                                        <div key={index} className=' mx-auto bg-skyWhit border border-solid border-lightSky duration-300 hover:border hover:border-solid hover:border-skyDarkBlue hover:shadow-[0_6px_16.9px_0_#3861C44D] cursor-pointer w-[364px] h-[356px] rounded-[12px] p-[24px_16px_32px_21px] mb-[60px]'>
                                                             <p className={`${index===2 ? "!text-2xl":"" } font-Inter font-normal text-xl text-black2 italic`} >{items.para} </p>                                                            
-                                                                <div className=''><img src={items.img} alt="images" />  </div>                                                          
+                                                                <div className=''><img src={items.img} alt="images" /> </div>                                                          
                                                         </div>
                                                 ))
                                         }
+                                </div>
+                                <div className=' flex items-center justify-center gap-[22px]'>
+                                        <p className='font-Inter font-normal text-xl text-black2'>and a 100s of reasons</p>
+                                        <Commanbtn className="w-[146px] h-[48px]" text="Invest Now" />
                                 </div>
                         </div>
                 </div>

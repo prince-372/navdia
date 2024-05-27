@@ -17,6 +17,8 @@ module.exports = {
         lightCreem: '#A5A5A5',
         skyWhit: '#F9FBFF',              
         black2: '#101010',              
+        lightSky: '#C7D3F0',              
+        black3: '#020507',              
       },
       backgroundImage: {
          CommonGradient:

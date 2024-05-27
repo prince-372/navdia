@@ -6,8 +6,8 @@ import elipesbg from '../assets/image/png/elipesNvda.png'
 
 const Nvda = () => {
   return (
-    <div  className=' relative pt-[100px] overflow-x'>
-        <img className=' absolute top-[0%] left-[-1%]' src={elipesbg} alt="" />
+    <div  className=' relative pt-[100px] overflow-x-clip pb-[97px]'>
+        <img className=' absolute top-[0%] left-[-1%]' src={elipesbg} alt="elipesbg" />
         <div className=' container px-3 mx-auto'>
           <div className="grid lg:grid-cols-2 grid-cols-1 items-center justify-center">
      <div className=' relative'>

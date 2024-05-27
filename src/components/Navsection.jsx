@@ -18,7 +18,7 @@ const Navsection = () => {
                                 </div>
                         </div>
                         <div className='container mx-auto px-3 pt-[83px]'>
-                                <div className=' grid grid-cols-2 gap-[137px]'>
+                                <div className=' grid lg:grid-cols-2 gap-[137px]'>
                                         <div>
                                                 <img className=' pb-[21px]' src={nvidIa} alt="nvdIa" width={146} height={146} />
                                                 <h1 className=' text-white font-Inter font-bold text-[52px] leading-[62px] max-w-[499px] pb-4'>It’s the right time to buy Nvidia Stock</h1>
