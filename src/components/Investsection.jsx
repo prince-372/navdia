@@ -28,20 +28,20 @@ const Investsection = () => {
 
 
         return (
-                <div className='pt-[136px]'>
+                <div className=' pt-[48px] md:pt-[80px] lg:pt-[136px]'>
                         <div className=' container mx-auto px-3 '>
-                                <h2 className=' text-center pb-[60px] font-Inter font-bold text-[44px] leading-[57px]'>Why Invest in Nvidia Stock</h2>
+                                <h2 className=' text-center pb-4 sm:pb-[60px] font-Inter font-bold text-[44px] leading-[57px]'>Why Invest in Nvidia Stock</h2>
                                 <div className=' grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 '>
                                         {
                                                 Items.map((items, index) => (
-                                                        <div key={index} className=' mx-auto bg-skyWhit border border-solid border-lightSky duration-300 hover:border hover:border-solid hover:border-skyDarkBlue hover:shadow-[0_6px_16.9px_0_#3861C44D] cursor-pointer w-[364px] h-[356px] rounded-[12px] p-[24px_16px_32px_21px] mb-[60px]'>
+                                                        <div key={index} className='mx-auto bg-skyWhit border border-solid border-lightSky duration-300 hover:border hover:border-solid hover:border-skyDarkBlue hover:shadow-[0_6px_16.9px_0_#3861C44D] cursor-pointer max-w-[336px] sm:max-w-[364px] h-[356px] rounded-[12px] p-[24px_16px_32px_21px] mb-0 lg:mb-[60px] flex flex-col justify-between'>
                                                             <p className={`${index===2 ? "!text-2xl":"" } font-Inter font-normal text-xl text-black2 italic`} >{items.para} </p>                                                            
                                                                 <div className=''><img src={items.img} alt="images" /> </div>                                                          
                                                         </div>
                                                 ))
                                         }
                                 </div>
-                                <div className=' flex items-center justify-center gap-[22px]'>
+                                <div className=' flex items-center flex-col lg:flex-row justify-center gap-[22px] pt-4 lg:pt-0'>
                                         <p className='font-Inter font-normal text-xl text-black2'>and a 100s of reasons</p>
                                         <Commanbtn className="w-[146px] h-[48px]" text="Invest Now" />
                                 </div>

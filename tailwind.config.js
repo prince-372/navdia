@@ -21,8 +21,8 @@ module.exports = {
         black3: '#020507',              
       },
       backgroundImage: {
-         CommonGradient:
-         "linear-gradient(294.21deg, #034BDA 4.27%, #33A8FF 73.84%)",
+         CommonGradient: "linear-gradient(294.21deg, #034BDA 4.27%, #33A8FF 73.84%)",
+         CommonGradientH: "linear-gradient(294.21deg, #33A8FF 4.27%, #034BDA 73.84%)",
          
       },    
 
