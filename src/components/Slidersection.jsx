@@ -11,157 +11,159 @@ import shadowElipsLeft from '../assets/image/png/shadowElipsLeft.png'
 const Slidersection = () => {
         return (
                 <div className=' overflow-x-clip relative '>
-                        <div class="slider py-[11px]">
-                                <div class="slide-track gap-[32px]">
-                                        <div class="slide">
-                                                <div className='w-[355px] h-[140px] border border-solid border-lightPink rounded-[15px] p-[15px]'>
-                                                        <div className='flex items-center gap-[19px]'>
-                                                                <div>
-                                                                        <div className=' flex items-center gap-[10px] pb-[10px]'>
-                                                                                <img src={personImg1} alt="personImg" />
-                                                                                <p className=' font-bold text-xl'>Jerome</p>
+                        <div className=' mx-auto max-w-[1920px]'>
+                                <div class="slider py-[11px]">
+                                        <div class="slide-track gap-[32px]">
+                                                <div class="slide">
+                                                        <div className='max-ww-[355px] min-h-[140px] border border-solid border-lightPink rounded-[15px] p-[15px]'>
+                                                                <div className='flex items-center gap-[19px]'>
+                                                                        <div>
+                                                                                <div className=' flex items-center gap-[10px] pb-[10px]'>
+                                                                                        <img src={personImg1} alt="personImg" />
+                                                                                        <p className=' font-bold text-xl'>Jerome</p>
+                                                                                </div>
+                                                                                <p className=' pb-[2px] text-lightCreem text-base font-normal'>Profit: <span className='font-bold text-lightBlack'>$35,499</span></p>
+                                                                                <p className=' pb-[2px] text-lightCreem text-base font-normal'>Current Balance: <span className='font-bold text-lightBlack'>$68,187</span></p>
                                                                         </div>
-                                                                        <p className=' pb-[2px] text-lightCreem text-base font-normal'>Profit: <span className='font-bold text-lightBlack'>$35,499</span></p>
-                                                                        <p className=' pb-[2px] text-lightCreem text-base font-normal'>Current Balance: <span className='font-bold text-lightBlack'>$68,187</span></p>
-                                                                </div>
-                                                                <div className='flex justify-center'>
-                                                                        <img src={grafImg1} alt="grafImg1" />
+                                                                        <div className='flex justify-center'>
+                                                                                <img src={grafImg1} alt="grafImg1" />
+                                                                        </div>
                                                                 </div>
                                                         </div>
                                                 </div>
-                                        </div>
-                                        <div class="slide">
-                                                <div className='w-[355px] h-[140px] border border-solid border-lightPink rounded-[15px] p-[15px]'>
-                                                        <div className='flex items-center gap-[19px]'>
-                                                                <div>
-                                                                        <div className=' flex items-center gap-[10px] pb-[10px]'>
-                                                                                <img src={personImg2} alt="personImg" />
-                                                                                <p className=' font-bold text-xl'>Murray</p>
+                                                <div class="slide">
+                                                        <div className='w-[355px] h-[140px] border border-solid border-lightPink rounded-[15px] p-[15px]'>
+                                                                <div className='flex items-center gap-[19px]'>
+                                                                        <div>
+                                                                                <div className=' flex items-center gap-[10px] pb-[10px]'>
+                                                                                        <img src={personImg2} alt="personImg" />
+                                                                                        <p className=' font-bold text-xl'>Murray</p>
+                                                                                </div>
+                                                                                <p className=' pb-[2px] text-lightCreem text-base font-normal'>Profit: <span className='font-bold text-lightBlack'>$35,499</span></p>
+                                                                                <p className=' pb-[2px] text-lightCreem text-base font-normal'>Current Balance: <span className='font-bold text-lightBlack'>$68,187</span></p>
                                                                         </div>
-                                                                        <p className=' pb-[2px] text-lightCreem text-base font-normal'>Profit: <span className='font-bold text-lightBlack'>$35,499</span></p>
-                                                                        <p className=' pb-[2px] text-lightCreem text-base font-normal'>Current Balance: <span className='font-bold text-lightBlack'>$68,187</span></p>
-                                                                </div>
-                                                                <div className='flex justify-center'>
-                                                                        <img src={grafImg2} alt="grafImg1" />
+                                                                        <div className='flex justify-center'>
+                                                                                <img src={grafImg2} alt="grafImg1" />
+                                                                        </div>
                                                                 </div>
                                                         </div>
                                                 </div>
-                                        </div>
-                                        <div class="slide">
-                                                <div className='w-[355px] h-[140px] border border-solid border-lightPink rounded-[15px] p-[15px]'>
-                                                        <div className='flex items-center gap-[19px]'>
-                                                                <div>
-                                                                        <div className=' flex items-center gap-[10px] pb-[10px]'>
-                                                                                <img src={personImg3} alt="personImg" />
-                                                                                <p className=' font-bold text-xl'>Felicia</p>
+                                                <div class="slide">
+                                                        <div className='w-[355px] h-[140px] border border-solid border-lightPink rounded-[15px] p-[15px]'>
+                                                                <div className='flex items-center gap-[19px]'>
+                                                                        <div>
+                                                                                <div className=' flex items-center gap-[10px] pb-[10px]'>
+                                                                                        <img src={personImg3} alt="personImg" />
+                                                                                        <p className=' font-bold text-xl'>Felicia</p>
+                                                                                </div>
+                                                                                <p className=' pb-[2px] text-lightCreem text-base font-normal'>Profit: <span className='font-bold text-lightBlack'>$35,499</span></p>
+                                                                                <p className=' pb-[2px] text-lightCreem text-base font-normal'>Current Balance: <span className='font-bold text-lightBlack'>$68,187</span></p>
                                                                         </div>
-                                                                        <p className=' pb-[2px] text-lightCreem text-base font-normal'>Profit: <span className='font-bold text-lightBlack'>$35,499</span></p>
-                                                                        <p className=' pb-[2px] text-lightCreem text-base font-normal'>Current Balance: <span className='font-bold text-lightBlack'>$68,187</span></p>
-                                                                </div>
-                                                                <div className='flex justify-center'>
-                                                                        <img src={grafImg3} alt="grafImg1" />
+                                                                        <div className='flex justify-center'>
+                                                                                <img src={grafImg3} alt="grafImg1" />
+                                                                        </div>
                                                                 </div>
                                                         </div>
                                                 </div>
-                                        </div>
-                                        <div class="slide">
-                                                <div className='w-[355px] h-[140px] border border-solid border-lightPink rounded-[15px] p-[15px]'>
-                                                        <div className='flex items-center gap-[19px]'>
-                                                                <div>
-                                                                        <div className=' flex items-center gap-[10px] pb-[10px]'>
-                                                                                <img src={personImg1} alt="personImg" />
-                                                                                <p className=' font-bold text-xl'>Jerome</p>
+                                                <div class="slide">
+                                                        <div className='w-[355px] h-[140px] border border-solid border-lightPink rounded-[15px] p-[15px]'>
+                                                                <div className='flex items-center gap-[19px]'>
+                                                                        <div>
+                                                                                <div className=' flex items-center gap-[10px] pb-[10px]'>
+                                                                                        <img src={personImg1} alt="personImg" />
+                                                                                        <p className=' font-bold text-xl'>Jerome</p>
+                                                                                </div>
+                                                                                <p className=' pb-[2px] text-lightCreem text-base font-normal'>Profit: <span className='font-bold text-lightBlack'>$35,499</span></p>
+                                                                                <p className=' pb-[2px] text-lightCreem text-base font-normal'>Current Balance: <span className='font-bold text-lightBlack'>$68,187</span></p>
                                                                         </div>
-                                                                        <p className=' pb-[2px] text-lightCreem text-base font-normal'>Profit: <span className='font-bold text-lightBlack'>$35,499</span></p>
-                                                                        <p className=' pb-[2px] text-lightCreem text-base font-normal'>Current Balance: <span className='font-bold text-lightBlack'>$68,187</span></p>
-                                                                </div>
-                                                                <div className='flex justify-center'>
-                                                                        <img src={grafImg1} alt="grafImg1" />
+                                                                        <div className='flex justify-center'>
+                                                                                <img src={grafImg1} alt="grafImg1" />
+                                                                        </div>
                                                                 </div>
                                                         </div>
                                                 </div>
-                                        </div>
-                                        <div class="slide">
-                                                <div className='w-[355px] h-[140px] border border-solid border-lightPink rounded-[15px] p-[15px]'>
-                                                        <div className='flex items-center gap-[19px]'>
-                                                                <div>
-                                                                        <div className=' flex items-center gap-[10px] pb-[10px]'>
-                                                                                <img src={personImg2} alt="personImg" />
-                                                                                <p className=' font-bold text-xl'>Murray</p>
+                                                <div class="slide">
+                                                        <div className='w-[355px] h-[140px] border border-solid border-lightPink rounded-[15px] p-[15px]'>
+                                                                <div className='flex items-center gap-[19px]'>
+                                                                        <div>
+                                                                                <div className=' flex items-center gap-[10px] pb-[10px]'>
+                                                                                        <img src={personImg2} alt="personImg" />
+                                                                                        <p className=' font-bold text-xl'>Murray</p>
+                                                                                </div>
+                                                                                <p className=' pb-[2px] text-lightCreem text-base font-normal'>Profit: <span className='font-bold text-lightBlack'>$35,499</span></p>
+                                                                                <p className=' pb-[2px] text-lightCreem text-base font-normal'>Current Balance: <span className='font-bold text-lightBlack'>$68,187</span></p>
                                                                         </div>
-                                                                        <p className=' pb-[2px] text-lightCreem text-base font-normal'>Profit: <span className='font-bold text-lightBlack'>$35,499</span></p>
-                                                                        <p className=' pb-[2px] text-lightCreem text-base font-normal'>Current Balance: <span className='font-bold text-lightBlack'>$68,187</span></p>
-                                                                </div>
-                                                                <div className='flex justify-center'>
-                                                                        <img src={grafImg2} alt="grafImg1" />
+                                                                        <div className='flex justify-center'>
+                                                                                <img src={grafImg2} alt="grafImg1" />
+                                                                        </div>
                                                                 </div>
                                                         </div>
                                                 </div>
-                                        </div>
-                                        <div class="slide">
-                                                <div className='w-[355px] h-[140px] border border-solid border-lightPink rounded-[15px] p-[15px]'>
-                                                        <div className='flex items-center gap-[19px]'>
-                                                                <div>
-                                                                        <div className=' flex items-center gap-[10px] pb-[10px]'>
-                                                                                <img src={personImg3} alt="personImg" />
-                                                                                <p className=' font-bold text-xl'>Felicia</p>
+                                                <div class="slide">
+                                                        <div className='w-[355px] h-[140px] border border-solid border-lightPink rounded-[15px] p-[15px]'>
+                                                                <div className='flex items-center gap-[19px]'>
+                                                                        <div>
+                                                                                <div className=' flex items-center gap-[10px] pb-[10px]'>
+                                                                                        <img src={personImg3} alt="personImg" />
+                                                                                        <p className=' font-bold text-xl'>Felicia</p>
+                                                                                </div>
+                                                                                <p className=' pb-[2px] text-lightCreem text-base font-normal'>Profit: <span className='font-bold text-lightBlack'>$35,499</span></p>
+                                                                                <p className=' pb-[2px] text-lightCreem text-base font-normal'>Current Balance: <span className='font-bold text-lightBlack'>$68,187</span></p>
                                                                         </div>
-                                                                        <p className=' pb-[2px] text-lightCreem text-base font-normal'>Profit: <span className='font-bold text-lightBlack'>$35,499</span></p>
-                                                                        <p className=' pb-[2px] text-lightCreem text-base font-normal'>Current Balance: <span className='font-bold text-lightBlack'>$68,187</span></p>
-                                                                </div>
-                                                                <div className='flex justify-center'>
-                                                                        <img src={grafImg3} alt="grafImg1" />
+                                                                        <div className='flex justify-center'>
+                                                                                <img src={grafImg3} alt="grafImg1" />
+                                                                        </div>
                                                                 </div>
                                                         </div>
                                                 </div>
-                                        </div>
-                                        <div class="slide">
-                                                <div className='w-[355px] h-[140px] border border-solid border-lightPink rounded-[15px] p-[15px]'>
-                                                        <div className='flex items-center gap-[19px]'>
-                                                                <div>
-                                                                        <div className=' flex items-center gap-[10px] pb-[10px]'>
-                                                                                <img src={personImg1} alt="personImg" />
-                                                                                <p className=' font-bold text-xl'>Jerome</p>
+                                                <div class="slide">
+                                                        <div className='w-[355px] h-[140px] border border-solid border-lightPink rounded-[15px] p-[15px]'>
+                                                                <div className='flex items-center gap-[19px]'>
+                                                                        <div>
+                                                                                <div className=' flex items-center gap-[10px] pb-[10px]'>
+                                                                                        <img src={personImg1} alt="personImg" />
+                                                                                        <p className=' font-bold text-xl'>Jerome</p>
+                                                                                </div>
+                                                                                <p className=' pb-[2px] text-lightCreem text-base font-normal'>Profit: <span className='font-bold text-lightBlack'>$35,499</span></p>
+                                                                                <p className=' pb-[2px] text-lightCreem text-base font-normal'>Current Balance: <span className='font-bold text-lightBlack'>$68,187</span></p>
                                                                         </div>
-                                                                        <p className=' pb-[2px] text-lightCreem text-base font-normal'>Profit: <span className='font-bold text-lightBlack'>$35,499</span></p>
-                                                                        <p className=' pb-[2px] text-lightCreem text-base font-normal'>Current Balance: <span className='font-bold text-lightBlack'>$68,187</span></p>
-                                                                </div>
-                                                                <div className='flex justify-center'>
-                                                                        <img src={grafImg1} alt="grafImg1" />
+                                                                        <div className='flex justify-center'>
+                                                                                <img src={grafImg1} alt="grafImg1" />
+                                                                        </div>
                                                                 </div>
                                                         </div>
                                                 </div>
-                                        </div>
-                                        <div class="slide">
-                                                <div className='w-[355px] h-[140px] border border-solid border-lightPink rounded-[15px] p-[15px]'>
-                                                        <div className='flex items-center gap-[19px]'>
-                                                                <div>
-                                                                        <div className=' flex items-center gap-[10px] pb-[10px]'>
-                                                                                <img src={personImg2} alt="personImg" />
-                                                                                <p className=' font-bold text-xl'>Murray</p>
+                                                <div class="slide">
+                                                        <div className='w-[355px] h-[140px] border border-solid border-lightPink rounded-[15px] p-[15px]'>
+                                                                <div className='flex items-center gap-[19px]'>
+                                                                        <div>
+                                                                                <div className=' flex items-center gap-[10px] pb-[10px]'>
+                                                                                        <img src={personImg2} alt="personImg" />
+                                                                                        <p className=' font-bold text-xl'>Murray</p>
+                                                                                </div>
+                                                                                <p className=' pb-[2px] text-lightCreem text-base font-normal'>Profit: <span className='font-bold text-lightBlack'>$35,499</span></p>
+                                                                                <p className=' pb-[2px] text-lightCreem text-base font-normal'>Current Balance: <span className='font-bold text-lightBlack'>$68,187</span></p>
                                                                         </div>
-                                                                        <p className=' pb-[2px] text-lightCreem text-base font-normal'>Profit: <span className='font-bold text-lightBlack'>$35,499</span></p>
-                                                                        <p className=' pb-[2px] text-lightCreem text-base font-normal'>Current Balance: <span className='font-bold text-lightBlack'>$68,187</span></p>
-                                                                </div>
-                                                                <div className='flex justify-center'>
-                                                                        <img src={grafImg2} alt="grafImg1" />
+                                                                        <div className='flex justify-center'>
+                                                                                <img src={grafImg2} alt="grafImg1" />
+                                                                        </div>
                                                                 </div>
                                                         </div>
                                                 </div>
-                                        </div>
-                                        <div class="slide">
-                                                <div className='w-[355px] h-[140px] border border-solid border-lightPink rounded-[15px] p-[15px]'>
-                                                        <div className='flex items-center gap-[19px]'>
-                                                                <div>
-                                                                        <div className=' flex items-center gap-[10px] pb-[10px]'>
-                                                                                <img src={personImg3} alt="personImg" />
-                                                                                <p className=' font-bold text-xl'>Felicia</p>
+                                                <div class="slide">
+                                                        <div className='w-[355px] h-[140px] border border-solid border-lightPink rounded-[15px] p-[15px]'>
+                                                                <div className='flex items-center gap-[19px]'>
+                                                                        <div>
+                                                                                <div className=' flex items-center gap-[10px] pb-[10px]'>
+                                                                                        <img src={personImg3} alt="personImg" />
+                                                                                        <p className=' font-bold text-xl'>Felicia</p>
+                                                                                </div>
+                                                                                <p className=' pb-[2px] text-lightCreem text-base font-normal'>Profit: <span className='font-bold text-lightBlack'>$35,499</span></p>
+                                                                                <p className=' pb-[2px] text-lightCreem text-base font-normal'>Current Balance: <span className='font-bold text-lightBlack'>$68,187</span></p>
                                                                         </div>
-                                                                        <p className=' pb-[2px] text-lightCreem text-base font-normal'>Profit: <span className='font-bold text-lightBlack'>$35,499</span></p>
-                                                                        <p className=' pb-[2px] text-lightCreem text-base font-normal'>Current Balance: <span className='font-bold text-lightBlack'>$68,187</span></p>
-                                                                </div>
-                                                                <div className='flex justify-center'>
-                                                                        <img src={grafImg3} alt="grafImg1" />
+                                                                        <div className='flex justify-center'>
+                                                                                <img src={grafImg3} alt="grafImg1" />
+                                                                        </div>
                                                                 </div>
                                                         </div>
                                                 </div>
