@@ -14,9 +14,9 @@ function App() {
       <Slidersection/>
       <Investsection/>
       <Growth/>
-      {/* <Money/> */}
-      {/* <Nvda/> */}
-      {/* <Footer/> */}
+      <Money/>
+      <Nvda/>
+      <Footer/>
     </div>
   );
 }

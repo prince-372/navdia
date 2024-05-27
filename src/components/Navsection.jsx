@@ -85,7 +85,7 @@ const Navsection = () => {
                                         </div>
                                 </div>
                         </div>
-                        <img className='  anime-spine absolute top-[18%] left-[-9%] w-[199px] h-[188px] -z-10 animate-spin' src={heroDashedElips} alt="dashedElips" />
+                        <img className='  anime-spine absolute top-[13%] lg:top-[18%] left-[-32%] lg:left-[-9%] w-[199px] h-[188px] -z-10 animate-spin' src={heroDashedElips} alt="dashedElips" />
                         <img className=' absolute top-[5%] lg:top-[7%] left-[-16px] -z-10' src={circleElips} alt="circleElips" />
                         <img className=' absolute top-[8%] right-[-34%] sm:right-[5%] lg:right-[27%] -z-10' src={heroElips} alt="heroElips" />
                         <img className=' absolute animate-spin top-[53%] right-[42%] -z-10' src={heroDashedElips} alt="heroDashedElips" />
