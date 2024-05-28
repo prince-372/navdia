@@ -10,7 +10,10 @@ const Trending = () => {
   return (
     <div className=" lg:pt-[120px] pt-[34px]">
       <div className=" max-w-[1360px] container mx-auto px-3">
-        <div className="shadow-[0px_38px_0px_-9px_#E8F1FD] max-w-[1360px] rounded-[34px] bg-CommonGradient md:py-[78px] py-[10px] md:px-[110px] px-[20px] ">
+        <div className="shadow-[0px_38px_0px_-9px_#E8F1FD] max-w-[1360px] rounded-[34px] bg-CommonGradient md:py-[78px] py-[40px] md:px-[110px] px-[20px] ">
+        <h2 className=" font-Inter font-bold sm:leading-[57px] leading-[40px] text-center text-white sm:text-[44px] text-[34px]">
+                Trending about NVIDIA
+              </h2>
           <Swiper
               loop={true}
             pagination={{
@@ -20,9 +23,6 @@ const Trending = () => {
             className="mySwiper"
           >
             <SwiperSlide>
-              <h2 className=" font-Inter font-bold sm:leading-[57px] leading-[40px] text-center text-white sm:text-[44px] text-[34px]">
-                Trending about NVIDIA
-              </h2>
               <div className=" grid lg:grid-cols-2 grid-cols-1 md:pt-[71px] pt-[10px] md:pb-[57px] pb-[10px] items-center">
                 <div>
                   <p className=" font-Inter font-bold sm:text-[32px] text-[22px] sm:leading-[41px] leading-[28px] text-white max-w-[510px] mx-auto lg:mx-0 text-center lg:text-start">
@@ -47,9 +47,6 @@ const Trending = () => {
               </div>
             </SwiperSlide>
             <SwiperSlide>
-              <h2 className=" font-Inter font-bold sm:leading-[57px] leading-[40px] text-center text-white sm:text-[44px] text-[34px]">
-                Trending about NVIDIA
-              </h2>
               <div className=" grid lg:grid-cols-2 grid-cols-1 md:pt-[71px] pt-[10px] md:pb-[57px] pb-[10px] items-center">
                 <div>
                   <p className=" font-Inter font-bold sm:text-[32px] text-[22px] sm:leading-[41px] leading-[28px] text-white max-w-[510px] mx-auto lg:mx-0 text-center lg:text-start">
@@ -74,9 +71,6 @@ const Trending = () => {
               </div>
             </SwiperSlide>
             <SwiperSlide>
-              <h2 className=" font-Inter font-bold sm:leading-[57px] leading-[40px] text-center text-white sm:text-[44px] text-[34px]">
-                Trending about NVIDIA
-              </h2>
               <div className=" grid lg:grid-cols-2 grid-cols-1 md:pt-[71px] pt-[10px] md:pb-[57px] pb-[10px] items-center">
                 <div>
                   <p className=" font-Inter font-bold sm:text-[32px] text-[22px] sm:leading-[41px] leading-[28px] text-white max-w-[510px] mx-auto lg:mx-0 text-center lg:text-start">
@@ -101,9 +95,6 @@ const Trending = () => {
               </div>
             </SwiperSlide>
             <SwiperSlide>
-              <h2 className=" font-Inter font-bold sm:leading-[57px] leading-[40px] text-center text-white sm:text-[44px] text-[34px]">
-                Trending about NVIDIA
-              </h2>
               <div className=" grid lg:grid-cols-2 grid-cols-1 md:pt-[71px] pt-[10px] md:pb-[57px] pb-[10px] items-center">
                 <div>
                   <p className=" font-Inter font-bold sm:text-[32px] text-[22px] sm:leading-[41px] leading-[28px] text-white max-w-[510px] mx-auto lg:mx-0 text-center lg:text-start">

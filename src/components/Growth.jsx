@@ -11,8 +11,11 @@ const Growth = () => {
                         <h2 className=' font-Inter font-bold text-[34px] md:text-[44px] leading-[46px] md:leading-[57px] text-center lg:text-start  text-black2  pb-3 md:pb-6'>Nvidia - AI GPU <span className=' lg:block'>1 year 228% Growth</span></h2>
                         <p className=' text-black3 text-base leading-[25px] font-normal font-Inter max-w-[489px] text-center lg:text-start mx-auto lg:mx-0'>NVIDIA Corporation, a powerhouse in GPU technology and AI innovation, offers investors compelling opportunities. With dominance in gaming and data center markets, NVIDIA stands poised for growth. Diversification efforts into AI, autonomous vehicles, and strategic acquisitions further bolster its potential. As a leader in technology and with a strong financial track record, NVIDIA remains a top choice for savvy investors.</p>
                 </div>
-                <img className=' order-1 lg:order-2 duration-300 hover:shadow-[0_11px_26.7px_0_#0000001F] rounded-2xl xl:max-w-[631px] xl:-translate-x-[48px] xl:!h-[344px]' src={chartImg} alt="chartImg" />
-        </div>
+                <div className="order-1 lg:order-2 flex justify-center lg:justify-start">
+                <img className='  duration-300 hover:shadow-[0_11px_26.7px_0_#0000001F] rounded-2xl xl:max-w-[631px] xl:-translate-x-[48px] xl:!h-[344px]' src={chartImg} alt="chartImg" />
+  
+                </div>
+                     </div>
       </div>
       <img className=' absolute top-[-1%] right-0 -z-10 ' src={rightElips} alt="rightElips" />
     </div>

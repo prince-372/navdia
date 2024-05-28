@@ -15,7 +15,7 @@ const Money = () => {
         <div className=" flex justify-center">
           <img src={moneySvg} alt="moneySvg" />
         </div>
-        <p className=" font-medium font-Inter sm:text-[32px] text-[26px] sm:leading-[41px] leading-[36px] max-w-[849px] mx-auto text-center italic pt-[22px]">
+        <p className=" font-medium font-Inter sm:text-[32px] text-[26px] sm:leading-[41px] leading-[36px] max-w-[849px] mx-auto text-center italic md:pt-[22px] pt-0">
           Analysts continue to remain positive on <span className=" font-bold">Nvidia stock</span>. Prior to the
           earnings, five large brokerages raised their target price on the
           company's shares.

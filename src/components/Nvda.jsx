@@ -9,9 +9,11 @@ const Nvda = () => {
         <img className=' absolute top-[0%] left-[-1%]' src={elipesbg} alt="elipesbg" />
         <div className=' max-w-[1140px] container px-3 mx-auto'>
           <div className="grid lg:grid-cols-2 grid-cols-1 lg:gap-[34px] items-center justify-center">
+     <div className="flex justify-center items-center">
      <div className=' relative'>
         <img src={nvdaCard} alt="nvdaCard" />
-        <div className=' flex justify-center mt-[-10%] sm:mt-0'><img className=' sm:absolute bottom-[5%] lg:left-[62%] left-[41%] w-[219px] h-[94px]' src={smallCard} alt="smallCard" /></div>
+        <div className=' flex justify-center mt-[-10%] sm:mt-0'><img className=' sm:absolute bottom-[5%] lg:left-[58%] left-[65%] w-[219px] h-[94px]' src={smallCard} alt="smallCard" /></div>
+     </div>
      </div>
      <div className=' relative z-10 pt-4 lg:pt-0'>
         <p className=' font-Inter sm:text-[44px] text-[30px] sm:leading-[57px] leading-[36px] font-bold max-w-[521px] text-black mx-auto lg:mx-0 text-center lg:text-start'>3 Reasons to Buy Nvidia Stock with AI</p>
