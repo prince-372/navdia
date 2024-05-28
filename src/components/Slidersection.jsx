@@ -1,15 +1,15 @@
 import React from 'react'
-import personImg1 from '../assets/image/png/personImg1.png'
-import personImg2 from '../assets/image/png/personImg2.png'
-import personImg3 from '../assets/image/png/personImg3.png'
-import grafImg1 from '../assets/image/png/grafImg1.png'
-import grafImg2 from '../assets/image/png/grafImg2.png'
-import grafImg3 from '../assets/image/png/grafImg3.png'
-import shadowElipsRight from '../assets/image/png/shadowElipsRight.png'
-import shadowElipsLeft from '../assets/image/png/shadowElipsLeft.png'
+import personImg1 from '../assets/image/webp/personImg1.webp'
+import personImg2 from '../assets/image/webp/personImg2.webp'
+import personImg3 from '../assets/image/webp/personImg3.webp'
+import grafImg1 from '../assets/image/webp/grafImg1.webp'
+import grafImg2 from '../assets/image/webp/grafImg2.webp'
+import grafImg3 from '../assets/image/webp/grafImg3.webp'
+import shadowElipsRight from '../assets/image/webp/shadowElipsRight.webp'
+import shadowElipsLeft from '../assets/image/webp/shadowElipsLeft.webp'
 
 const Slidersection = () => {
-        return (
+        return(
                 <div className=' overflow-x-clip relative '>
                         <div className=' mx-auto max-w-[1920px]'>
                                 <div class="slider py-[11px]">
@@ -20,7 +20,7 @@ const Slidersection = () => {
                                                                         <div>
                                                                                 <div className=' flex items-center gap-[10px] pb-[10px]'>
                                                                                         <img src={personImg1} alt="personImg" />
-                                                                                        <p className=' font-bold text-xl'>Jerome</p>
+                                                                                        <p className=' font-bold text-xl font-Open'>Jerome</p>
                                                                                 </div>
                                                                                 <p className=' pb-[2px] text-lightCreem text-base font-normal'>Profit: <span className='font-bold text-lightBlack'>$35,499</span></p>
                                                                                 <p className=' pb-[2px] text-lightCreem text-base font-normal'>Current Balance: <span className='font-bold text-lightBlack'>$68,187</span></p>
@@ -37,7 +37,7 @@ const Slidersection = () => {
                                                                         <div>
                                                                                 <div className=' flex items-center gap-[10px] pb-[10px]'>
                                                                                         <img src={personImg2} alt="personImg" />
-                                                                                        <p className=' font-bold text-xl'>Murray</p>
+                                                                                        <p className=' font-bold text-xl font-Open'>Murray</p>
                                                                                 </div>
                                                                                 <p className=' pb-[2px] text-lightCreem text-base font-normal'>Profit: <span className='font-bold text-lightBlack'>$35,499</span></p>
                                                                                 <p className=' pb-[2px] text-lightCreem text-base font-normal'>Current Balance: <span className='font-bold text-lightBlack'>$68,187</span></p>
@@ -54,7 +54,7 @@ const Slidersection = () => {
                                                                         <div>
                                                                                 <div className=' flex items-center gap-[10px] pb-[10px]'>
                                                                                         <img src={personImg3} alt="personImg" />
-                                                                                        <p className=' font-bold text-xl'>Felicia</p>
+                                                                                        <p className=' font-bold text-xl font-Open'>Felicia</p>
                                                                                 </div>
                                                                                 <p className=' pb-[2px] text-lightCreem text-base font-normal'>Profit: <span className='font-bold text-lightBlack'>$35,499</span></p>
                                                                                 <p className=' pb-[2px] text-lightCreem text-base font-normal'>Current Balance: <span className='font-bold text-lightBlack'>$68,187</span></p>
@@ -71,7 +71,7 @@ const Slidersection = () => {
                                                                         <div>
                                                                                 <div className=' flex items-center gap-[10px] pb-[10px]'>
                                                                                         <img src={personImg1} alt="personImg" />
-                                                                                        <p className=' font-bold text-xl'>Jerome</p>
+                                                                                        <p className=' font-bold text-xl font-Open'>Jerome</p>
                                                                                 </div>
                                                                                 <p className=' pb-[2px] text-lightCreem text-base font-normal'>Profit: <span className='font-bold text-lightBlack'>$35,499</span></p>
                                                                                 <p className=' pb-[2px] text-lightCreem text-base font-normal'>Current Balance: <span className='font-bold text-lightBlack'>$68,187</span></p>
@@ -88,7 +88,7 @@ const Slidersection = () => {
                                                                         <div>
                                                                                 <div className=' flex items-center gap-[10px] pb-[10px]'>
                                                                                         <img src={personImg2} alt="personImg" />
-                                                                                        <p className=' font-bold text-xl'>Murray</p>
+                                                                                        <p className=' font-bold text-xl font-Open'>Murray</p>
                                                                                 </div>
                                                                                 <p className=' pb-[2px] text-lightCreem text-base font-normal'>Profit: <span className='font-bold text-lightBlack'>$35,499</span></p>
                                                                                 <p className=' pb-[2px] text-lightCreem text-base font-normal'>Current Balance: <span className='font-bold text-lightBlack'>$68,187</span></p>
@@ -105,7 +105,7 @@ const Slidersection = () => {
                                                                         <div>
                                                                                 <div className=' flex items-center gap-[10px] pb-[10px]'>
                                                                                         <img src={personImg3} alt="personImg" />
-                                                                                        <p className=' font-bold text-xl'>Felicia</p>
+                                                                                        <p className=' font-bold text-xl font-Open'>Felicia</p>
                                                                                 </div>
                                                                                 <p className=' pb-[2px] text-lightCreem text-base font-normal'>Profit: <span className='font-bold text-lightBlack'>$35,499</span></p>
                                                                                 <p className=' pb-[2px] text-lightCreem text-base font-normal'>Current Balance: <span className='font-bold text-lightBlack'>$68,187</span></p>
@@ -122,7 +122,7 @@ const Slidersection = () => {
                                                                         <div>
                                                                                 <div className=' flex items-center gap-[10px] pb-[10px]'>
                                                                                         <img src={personImg1} alt="personImg" />
-                                                                                        <p className=' font-bold text-xl'>Jerome</p>
+                                                                                        <p className=' font-bold text-xl font-Open'>Jerome</p>
                                                                                 </div>
                                                                                 <p className=' pb-[2px] text-lightCreem text-base font-normal'>Profit: <span className='font-bold text-lightBlack'>$35,499</span></p>
                                                                                 <p className=' pb-[2px] text-lightCreem text-base font-normal'>Current Balance: <span className='font-bold text-lightBlack'>$68,187</span></p>
@@ -139,7 +139,7 @@ const Slidersection = () => {
                                                                         <div>
                                                                                 <div className=' flex items-center gap-[10px] pb-[10px]'>
                                                                                         <img src={personImg2} alt="personImg" />
-                                                                                        <p className=' font-bold text-xl'>Murray</p>
+                                                                                        <p className=' font-bold text-xl font-Open'>Murray</p>
                                                                                 </div>
                                                                                 <p className=' pb-[2px] text-lightCreem text-base font-normal'>Profit: <span className='font-bold text-lightBlack'>$35,499</span></p>
                                                                                 <p className=' pb-[2px] text-lightCreem text-base font-normal'>Current Balance: <span className='font-bold text-lightBlack'>$68,187</span></p>
@@ -156,7 +156,7 @@ const Slidersection = () => {
                                                                         <div>
                                                                                 <div className=' flex items-center gap-[10px] pb-[10px]'>
                                                                                         <img src={personImg3} alt="personImg" />
-                                                                                        <p className=' font-bold text-xl'>Felicia</p>
+                                                                                        <p className=' font-bold text-xl font-Open'>Felicia</p>
                                                                                 </div>
                                                                                 <p className=' pb-[2px] text-lightCreem text-base font-normal'>Profit: <span className='font-bold text-lightBlack'>$35,499</span></p>
                                                                                 <p className=' pb-[2px] text-lightCreem text-base font-normal'>Current Balance: <span className='font-bold text-lightBlack'>$68,187</span></p>
@@ -173,7 +173,7 @@ const Slidersection = () => {
                                                                         <div>
                                                                                 <div className=' flex items-center gap-[10px] pb-[10px]'>
                                                                                         <img src={personImg1} alt="personImg" />
-                                                                                        <p className=' font-bold text-xl'>Jerome</p>
+                                                                                        <p className=' font-bold text-xl font-Open'>Jerome</p>
                                                                                 </div>
                                                                                 <p className=' pb-[2px] text-lightCreem text-base font-normal'>Profit: <span className='font-bold text-lightBlack'>$35,499</span></p>
                                                                                 <p className=' pb-[2px] text-lightCreem text-base font-normal'>Current Balance: <span className='font-bold text-lightBlack'>$68,187</span></p>
@@ -190,7 +190,7 @@ const Slidersection = () => {
                                                                         <div>
                                                                                 <div className=' flex items-center gap-[10px] pb-[10px]'>
                                                                                         <img src={personImg2} alt="personImg" />
-                                                                                        <p className=' font-bold text-xl'>Murray</p>
+                                                                                        <p className=' font-bold text-xl font-Open'>Murray</p>
                                                                                 </div>
                                                                                 <p className=' pb-[2px] text-lightCreem text-base font-normal'>Profit: <span className='font-bold text-lightBlack'>$35,499</span></p>
                                                                                 <p className=' pb-[2px] text-lightCreem text-base font-normal'>Current Balance: <span className='font-bold text-lightBlack'>$68,187</span></p>
@@ -207,7 +207,7 @@ const Slidersection = () => {
                                                                         <div>
                                                                                 <div className=' flex items-center gap-[10px] pb-[10px]'>
                                                                                         <img src={personImg3} alt="personImg" />
-                                                                                        <p className=' font-bold text-xl'>Felicia</p>
+                                                                                        <p className=' font-bold text-xl font-Open'>Felicia</p>
                                                                                 </div>
                                                                                 <p className=' pb-[2px] text-lightCreem text-base font-normal'>Profit: <span className='font-bold text-lightBlack'>$35,499</span></p>
                                                                                 <p className=' pb-[2px] text-lightCreem text-base font-normal'>Current Balance: <span className='font-bold text-lightBlack'>$68,187</span></p>
@@ -221,10 +221,11 @@ const Slidersection = () => {
                                         </div>
                                 </div>
                         </div>
-                        <img className=' absolute left-0 top-0 w-[70px] md:w-[247px] h-[140px] md:h-[161px]' src={shadowElipsLeft} alt="shadowElipsLeft" />
-                        <img className=' absolute right-0 top-0 w-[70px] md:w-[247px] h-[140px] md:h-[161px]' src={shadowElipsRight} alt="shadowElipsRight" />
+                        <img className=' absolute left-0 top-0  max-xl:w-[60px] xl:w-[247px] h-[140px] md:h-[161px] hidden sm:block' src={shadowElipsLeft} alt="shadowElipsLeft" />
+                        <img className=' absolute right-0 top-0 max-xl:w-[60px] xl:w-[247px] h-[140px] md:h-[161px] hidden sm:block' src={shadowElipsRight} alt="shadowElipsRight" />
                 </div>
         )
+
 }
 
 export default Slidersection
