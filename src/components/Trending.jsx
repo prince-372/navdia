@@ -8,13 +8,13 @@ import { Pagination } from "swiper/modules";
 
 const Trending = () => {
   return (
-    <div className=" lg:pt-[100px] pt-[34px]">
+    <div className=" lg:pt-[120px] pt-[34px]">
       <div className=" max-w-[1360px] container mx-auto px-3">
-        <div className=" mx-w-[1360px] rounded-[34px] bg-CommonGradient md:py-[78px] py-[10px] md:px-[110px] px-[20px] shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)]">
+        <div className="shadow-[0px_38px_0px_-9px_#E8F1FD] max-w-[1360px] rounded-[34px] bg-CommonGradient md:py-[78px] py-[10px] md:px-[110px] px-[20px] ">
           <Swiper
+              loop={true}
             pagination={{
               dynamicBullets: true,
-              loop: true,
             }}
             modules={[Pagination]}
             className="mySwiper"
