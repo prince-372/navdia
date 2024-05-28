@@ -21,6 +21,9 @@ module.exports = {
       backgroundImage: {
          CommonGradient:
          "linear-gradient(294.21deg, #034BDA 4.27%, #33A8FF 73.84%)",
+         CommonGradient2:
+        'linear-gradient(171.68deg, #00FFE1 39.97%, #6E5DF6 107.69%)',
+
          
       },
      

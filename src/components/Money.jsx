@@ -22,7 +22,7 @@ const Money = () => {
           company's shares.
         </p>
         <div className=" flex justify-center pt-12">
-            <Commanbtn className="w-[147px] h-[48px]" text="Invest Now"/>
+            <button className="text-base w-[147px] h-[48px] font-bold font-Inter py-3 px-[30px] rounded-[58px] bg-CommonGradient text-white">Invest Now <span className="max-w-[120px] text-white h-[2px]"></span></button>
         </div>
       </div>
       <span className=" absolute translate-x-[-60%] -translate-y-[47%]">
