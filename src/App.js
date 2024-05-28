@@ -1,15 +1,19 @@
 import './App.css';
 import Money from './components/Money';
-import Nvda from './components/Nvda';
 import Navsection from './components/Navsection';
 import Slidersection from './components/Slidersection';
+import Investsection from './components/Investsection';
+import Growth from './components/Growth';
+import Nvda from './components/Nvda';
 import Footer from './components/Footer';
 import Trending from './components/Trending';
 function App() {
   return (
     <div>
-      {/* <Navsection/> */}
-      {/* <Slidersection/> */}
+      <Navsection/>
+      <Slidersection/>
+      <Investsection/>
+      <Growth/>
       <Trending/>
       <Money/>
       <Nvda/>
