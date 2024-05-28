@@ -57,7 +57,7 @@ const Navsection = () => {
                                 </div>
                         </div>
                         <div className='max-[1536px]:max-w-[1140px] container mx-auto px-3 pt-12 sm:pt-[83px]'>
-                                <div className=' grid lg:grid-cols-2 gap-6 md:gap-[40px] lg:gap-[137px]'>
+                                <div className=' grid lg:grid-cols-2 gap-6 md:gap-[40px] '>
                                         <div>
                                                 <img className='  pb-[21px]' src={nvidIa} alt="nvdIa" width={146} height={146} />
                                                 <h1 className=' text-white font-Inter font-bold text-[42px] md:text-[52px] leading-[50px] md:leading-[62px] max-w-[499px] pb-4'>It’s the right time to buy Nvidia Stock</h1>
