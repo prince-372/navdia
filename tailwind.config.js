@@ -15,8 +15,10 @@ module.exports = {
         lightPink: '#E5E5E5',
         lightBlack: '#1E1E1E',
         lightCreem: '#A5A5A5',
-        
-              
+        skyWhit: '#F9FBFF',
+        black2: '#101010',
+        lightSky: '#C7D3F0',
+        black3: '#020507',   
       },
       backgroundImage: {
          CommonGradient:
