@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <div className=' bg-[#0B203D] overflow-x-clip relative z-10'>
       <div className=' sm:w-[191px] w-[80px] sm:h-[191px] h-[80px] bg-CommonGradient2 blur-[110px] absolute -z-10 bottom-[0%] right-[0%]'></div>
-        <div className=' container mx-auto px-3 sm:pt-[72px] pt-[20px]'>
+        <div className=' max-[1536px]:max-w-[1140px] container mx-auto px-3 sm:pt-[72px] pt-[20px]'>
           <div className=' flex flex-wrap justify-between sm:pb-[65px] pb-[20px]'>
             <div>
                 <a href="">
@@ -30,7 +30,7 @@ const Footer = () => {
           </div>
         </div>
         <hr className=' w-[1920px] border border-[#4B70A2]'/>
-        <div className=' container px-3 mx-auto'>
+        <div className=' max-[1536px]:max-w-[1140px] container px-3 mx-auto'>
           <ul className=' flex flex-wrap justify-between py-[27px]'>
             <li className='font-Inter text-base font-normal text-[#CED2D8] '>Privacy Policy | Conditions</li>
             <li className=' font-Inter font-normal text-base text-[#CED2D8] pt-3 sm:pt-0'>Report Abuse/ Spam | Copyright@{new Date().getFullYear()}</li>
