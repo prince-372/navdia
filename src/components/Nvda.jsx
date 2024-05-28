@@ -15,9 +15,9 @@ const Nvda = () => {
      </div>
      <div className=' relative z-10 pt-4 lg:pt-0'>
         <p className=' font-Inter sm:text-[44px] text-[30px] sm:leading-[57px] leading-[36px] font-bold max-w-[521px] text-black mx-auto lg:mx-0 text-center lg:text-start'>3 Reasons to Buy Nvidia Stock with AI</p>
-        <p className='font-Inter text-base font-normal max-w-[489px] md:pt-[67px] pt-[10px] mx-auto lg:mx-0 text-center lg:text-start'>The GPU maker has become synonymous with AI and is taking that technology to the next level.</p>
+        <p className='font-Inter text-base font-normal max-w-[489px] md:pt-[67px] text-[#353739] pt-[10px] mx-auto lg:mx-0 text-center lg:text-start'>The GPU maker has become synonymous with AI and is taking that technology to the next level.</p>
         <div className=' lg:pt-[40px] pt-0 flex justify-center lg:justify-start'>
-            <button className="text-base w-[182px] h-[48px] font-bold font-Inter py-3 px-[30px] rounded-[58px] bg-CommonGradient text-white hover:bg-CommonGradientH duration-300 mt-6 lg:mt-[40px]">Read full article</button>
+            <button className="text-base w-[182px] h-[48px] font-bold font-Inter py-3 px-[30px] rounded-[58px] bg-CommonGradient text-white hover:bg-CommonGradientH duration-300 mt-6 lg:mt-[40px]">Read full article <hr className=' h-3 w-full text-white mt-[-4%]'/></button>
         </div>
      </div>
           </div>
