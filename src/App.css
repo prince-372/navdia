@@ -67,13 +67,5 @@ textarea {
 .swiper-pagination-bullets.swiper-pagination-horizontal {
   bottom: var(--swiper-pagination-bottom, 0px) !important;
   top: var(--swiper-pagination-top, auto);
-}
-.swiper-horizontal 
-> .swiper-pagination-bullets
-.swiper-pagination-bullets-dynamic 
-.swiper-pagination-bullet, .swiper-pagination-horizontal
-.swiper-pagination-bullets.swiper-pagination-bullets-dynamic .swiper-pagination-bullet {
-  transition: 200ms transform, 200ms left;
-  background-color: white !important;
   color: white !important;
 }

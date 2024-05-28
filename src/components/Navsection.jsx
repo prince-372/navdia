@@ -64,7 +64,7 @@ const Navsection = () => {
                                                 </div>
 
                                         </div>
-                                        <div className='bg-white rounded-[32px] flex flex-col justify-center lg:justify-start mx-auto lg:mx-0 max-w-[337px] sm:max-w-[493px] mt-[23px] p-[32px] border border-solid border-skyDarkBlue shadow-[0_11px_33.5px_0_#0000001F;]'>
+                                        <div className='bg-white rounded-[32px] flex flex-col ml-auto justify-center lg:justify-start mx-auto lg:mr-0 max-w-[337px] sm:max-w-[493px] mt-[23px] p-[32px] border border-solid border-skyDarkBlue shadow-[0_11px_33.5px_0_#0000001F;]'>
                                                 <h2 className='text-black font-Inter font-bold text-xl md:text-2xl pb-5'>Start Trading today!</h2>
                                                 <form onSubmit={handleSubmit}>
                                                         <input type="text" value={firstName} onChange={(e) => setFirstName(e.target.value)} className={`rounded-[30px] p-[13px_24px] bg-skyBlue w-full border border-solid border-skyDarkBlue placeholder:text-grey font-Inter mb-[14px] outline-none ${errors.firstName && 'border-red-500'}`} placeholder='First Name' />
@@ -75,7 +75,7 @@ const Navsection = () => {
                                                         {errors.email && <p className="text-red-500">{errors.email}</p>}
                                                         <input type="number" value={phoneNumber} onChange={(e) => setPhoneNumber(e.target.value)} className={`rounded-[30px] p-[13px_24px] bg-skyBlue w-full border border-solid border-skyDarkBlue placeholder:text-grey font-Inter mb-[14px] outline-none ${errors.firstName && 'border-red-500'}`} placeholder='(316) 555-0116' />
                                                         {errors.phoneNumber && <p className="text-red-500">{errors.phoneNumber}</p>}
-                                                        <textarea placeholder='Write a message...' name="Write a message..." id="" className='rounded-[30px] p-[13px_24px] bg-skyBlue w-full border border-solid border-skyDarkBlue placeholder:text-grey font-Inter h-[100px] mb-[14px] outline-none'></textarea>
+                                                        <textarea placeholder='Write a message...' name="Write a message..." id="" className='rounded-[30px] resize-none p-[13px_24px] bg-skyBlue w-full border border-solid border-skyDarkBlue placeholder:text-grey font-Inter h-[100px] mb-[14px] outline-none'></textarea>
                                                         <button type="submit" className='p-[16px_20px] flex justify-center items-center hover:bg-CommonGradientH duration-300 bg-CommonGradient h-[51px] max-w-[429px] w-full rounded-[38px] font-Inter font-semibold text-base text-white'>Get Started</button>
                                                 </form>
                                         </div>

@@ -10,7 +10,7 @@ const Nvda = () => {
         <div className=' max-w-[1140px] container px-3 mx-auto'>
           <div className="grid lg:grid-cols-2 grid-cols-1 lg:gap-[34px] items-center justify-center">
      <div className="flex justify-center items-center">
-     <div className=' relative'>
+     <div className=' relative z-10'>
         <img src={nvdaCard} alt="nvdaCard" />
         <div className=' flex justify-center mt-[-10%] sm:mt-0'><img className=' sm:absolute bottom-[5%] lg:left-[58%] left-[65%] w-[219px] h-[94px]' src={smallCard} alt="smallCard" /></div>
      </div>
