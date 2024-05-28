@@ -23,7 +23,7 @@ const Trending = () => {
             className="mySwiper"
           >
             <SwiperSlide>
-              <div className=" grid lg:grid-cols-2 grid-cols-1 md:pt-[71px] pt-[10px] md:pb-[57px] pb-[10px] items-center">
+              <div className=" grid lg:grid-cols-2 grid-cols-1 md:pt-[71px] pt-[10px] md:pb-[57px] pb-[10px] items-center px-2">
                 <div>
                   <p className=" font-Inter font-bold sm:text-[32px] text-[22px] sm:leading-[41px] leading-[28px] text-white max-w-[510px] mx-auto lg:mx-0 text-center lg:text-start">
                     NVIDIA Joins $110 Million Partnership to Help Universities
@@ -47,7 +47,7 @@ const Trending = () => {
               </div>
             </SwiperSlide>
             <SwiperSlide>
-              <div className=" grid lg:grid-cols-2 grid-cols-1 md:pt-[71px] pt-[10px] md:pb-[57px] pb-[10px] items-center">
+              <div className=" grid lg:grid-cols-2 grid-cols-1 md:pt-[71px] pt-[10px] md:pb-[57px] pb-[10px] items-center px-2">
                 <div>
                   <p className=" font-Inter font-bold sm:text-[32px] text-[22px] sm:leading-[41px] leading-[28px] text-white max-w-[510px] mx-auto lg:mx-0 text-center lg:text-start">
                     NVIDIA Joins $110 Million Partnership to Help Universities
@@ -71,7 +71,7 @@ const Trending = () => {
               </div>
             </SwiperSlide>
             <SwiperSlide>
-              <div className=" grid lg:grid-cols-2 grid-cols-1 md:pt-[71px] pt-[10px] md:pb-[57px] pb-[10px] items-center">
+              <div className=" grid lg:grid-cols-2 grid-cols-1 md:pt-[71px] pt-[10px] md:pb-[57px] pb-[10px] items-center px-2">
                 <div>
                   <p className=" font-Inter font-bold sm:text-[32px] text-[22px] sm:leading-[41px] leading-[28px] text-white max-w-[510px] mx-auto lg:mx-0 text-center lg:text-start">
                     NVIDIA Joins $110 Million Partnership to Help Universities
@@ -95,7 +95,7 @@ const Trending = () => {
               </div>
             </SwiperSlide>
             <SwiperSlide>
-              <div className=" grid lg:grid-cols-2 grid-cols-1 md:pt-[71px] pt-[10px] md:pb-[57px] pb-[10px] items-center">
+              <div className=" grid lg:grid-cols-2 grid-cols-1 md:pt-[71px] pt-[10px] md:pb-[57px] pb-[10px] items-center px-2">
                 <div>
                   <p className=" font-Inter font-bold sm:text-[32px] text-[22px] sm:leading-[41px] leading-[28px] text-white max-w-[510px] mx-auto lg:mx-0 text-center lg:text-start">
                     NVIDIA Joins $110 Million Partnership to Help Universities

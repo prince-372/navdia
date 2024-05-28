@@ -7,6 +7,7 @@ import Growth from './components/Growth';
 import Nvda from './components/Nvda';
 import Footer from './components/Footer';
 import Trending from './components/Trending';
+import BackToTop from './components/Backtotop';
 function App() {
   return (
     <div>
@@ -18,6 +19,7 @@ function App() {
       <Money/>
       <Nvda/>
       <Footer/>
+      <BackToTop/>
     </div>
   );
 }
