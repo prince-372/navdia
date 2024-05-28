@@ -42,10 +42,10 @@ const Navsection = () => {
         };
         return (
                 <div className='bg-[url(./assets/image/webp/hero-bg-img.webp)] bg-cover bg-center bg-no-repeat xl:min-h-[810px] min-h-screen relative mb-[25px] z-10 overflow-x-clip'>
-                        <div className='bg-darkBlue pt-2 pb-[10px] overflow-hidden'>
+                        <div className='bg-darkBlue flex justify-center overflow-hidden h-[61px]'>
                                 <div className=' max-[1536px]:max-w-[1140px] container px-3 mx-auto'>
                                         <div className=' flex justify-between items-center '>
-                                                <a className=' text-white font-Inter font-bold text-[32px] leading-[38.73px]' href="">AI STOCKS</a>
+                                                <a className=' text-white font-Inter font-bold sm:text-[32px] text-[28px] leading-[38.73px]' href="">AI STOCKS</a>
                                                 <div className=" flex justify-center my-[10px]">
                                                         <button className=' h-[41px] w-[109px] rounded-[58px] flex justify-center items-center bg-CommonGradient font-Inter font-semibold text-base text-white hover:bg-CommonGradientH duration-300'>Sign Up</button>
                                                 </div>

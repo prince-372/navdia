@@ -18,7 +18,7 @@ module.exports = {
         skyWhit: '#F9FBFF',
         black2: '#101010',
         lightSky: '#C7D3F0',
-        black3: '#020507',   
+        black3: '#353739',   
       },
       backgroundImage: {
          CommonGradient:
