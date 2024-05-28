@@ -5,7 +5,7 @@ const Commanbtn = (props) => {
       <>
           <div className={` ${props.cstm} cursor-pointer` }>
             <span
-                className=" text-base font-bold font-Inter py-3 px-[30px] rounded-[58px]  bg-CommonGradient text-white hover:bg-CommonGradientH duration-300"              >
+                className=" text-base font-bold font-Inter py-3 px-[30px] rounded-[58px] bg-CommonGradient text-white"              >
                 {props.text}
                 </span>
           </div>
