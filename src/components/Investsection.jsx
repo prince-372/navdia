@@ -31,7 +31,7 @@ const Investsection = () => {
                                 <div className=' flex flex-wrap flex-row items-center justify-center -mx-3   '>
                                         {
                                                 Items.map((items, index) => (
-                                                        <div className=' px-3 lg:w-1/3 md:w-1/2  sm:w-[70%]'>
+                                                        <div key={index} className=' px-3 lg:w-1/3 md:w-1/2  sm:w-[70%]'>
                                                                 <div key={index} className='bg-skyWhit border max-md:max-w-[364px] mx-auto min-h-[320px] md:min-h-[356px] border-solid border-lightSky duration-300 hover:border hover:border-solid hover:border-skyDarkBlue hover:shadow-[0_6px_16.9px_0_#3861C44D] cursor-pointer h-full rounded-[12px] p-[24px_16px_32px_21px] mb-6 lg:mb-[60px] flex justify-between flex-col'>
                                                                         <p className={`${index === 2 ? "md:!text-2xl text-xl leading-[36px] " : ""} font-Inter font-normal text-lg md:text-xl leading-[30px] text-black2 italic`} >{items.para} </p>
                                                                         <div className=''><img src={items.img} alt="images" /> </div>

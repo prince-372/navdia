@@ -12,9 +12,9 @@ const Slidersection = () => {
         return(
                 <div className=' overflow-x-clip relative '>
                         <div className=' mx-auto max-w-[1920px]'>
-                                <div class="slider py-[11px]">
-                                        <div class="slide-track gap-[32px]">
-                                                <div class="slide cursor-pointer">
+                                <div className="slider py-[11px]">
+                                        <div className="slide-track gap-[32px]">
+                                                <div className="slide cursor-pointer">
                                                         <div className='w-[355px] h-[140px] border border-solid border-lightPink rounded-[15px] p-[15px]'>
                                                                 <div className='flex items-center gap-[19px]'>
                                                                         <div>
@@ -31,7 +31,7 @@ const Slidersection = () => {
                                                                 </div>
                                                         </div>
                                                 </div>
-                                                <div class="slide cursor-pointer">
+                                                <div className="slide cursor-pointer">
                                                         <div className='w-[355px] h-[140px] border border-solid border-lightPink rounded-[15px] p-[15px]'>
                                                                 <div className='flex items-center gap-[19px]'>
                                                                         <div>
@@ -48,7 +48,7 @@ const Slidersection = () => {
                                                                 </div>
                                                         </div>
                                                 </div>
-                                                <div class="slide cursor-pointer">
+                                                <div className="slide cursor-pointer">
                                                         <div className='w-[355px] h-[140px] border border-solid border-lightPink rounded-[15px] p-[15px]'>
                                                                 <div className='flex items-center gap-[19px]'>
                                                                         <div>
@@ -65,7 +65,7 @@ const Slidersection = () => {
                                                                 </div>
                                                         </div>
                                                 </div>
-                                                <div class="slide cursor-pointer">
+                                                <div className="slide cursor-pointer">
                                                         <div className='w-[355px] h-[140px] border border-solid border-lightPink rounded-[15px] p-[15px]'>
                                                                 <div className='flex items-center gap-[19px]'>
                                                                         <div>
@@ -82,7 +82,7 @@ const Slidersection = () => {
                                                                 </div>
                                                         </div>
                                                 </div>
-                                                <div class="slide cursor-pointer">
+                                                <div className="slide cursor-pointer">
                                                         <div className='w-[355px] h-[140px] border border-solid border-lightPink rounded-[15px] p-[15px]'>
                                                                 <div className='flex items-center gap-[19px]'>
                                                                         <div>
@@ -99,7 +99,7 @@ const Slidersection = () => {
                                                                 </div>
                                                         </div>
                                                 </div>
-                                                <div class="slide cursor-pointer">
+                                                <div className="slide cursor-pointer">
                                                         <div className='w-[355px] h-[140px] border border-solid border-lightPink rounded-[15px] p-[15px]'>
                                                                 <div className='flex items-center gap-[19px]'>
                                                                         <div>
@@ -116,7 +116,7 @@ const Slidersection = () => {
                                                                 </div>
                                                         </div>
                                                 </div>
-                                                <div class="slide cursor-pointer">
+                                                <div className="slide cursor-pointer">
                                                         <div className='w-[355px] h-[140px] border border-solid border-lightPink rounded-[15px] p-[15px]'>
                                                                 <div className='flex items-center gap-[19px]'>
                                                                         <div>
@@ -133,7 +133,7 @@ const Slidersection = () => {
                                                                 </div>
                                                         </div>
                                                 </div>
-                                                <div class="slide cursor-pointer">
+                                                <div className="slide cursor-pointer">
                                                         <div className='w-[355px] h-[140px] border border-solid border-lightPink rounded-[15px] p-[15px]'>
                                                                 <div className='flex items-center gap-[19px]'>
                                                                         <div>
@@ -150,7 +150,7 @@ const Slidersection = () => {
                                                                 </div>
                                                         </div>
                                                 </div>
-                                                <div class="slide cursor-pointer">
+                                                <div className="slide cursor-pointer">
                                                         <div className='w-[355px] h-[140px] border border-solid border-lightPink rounded-[15px] p-[15px]'>
                                                                 <div className='flex items-center gap-[19px]'>
                                                                         <div>
@@ -167,7 +167,7 @@ const Slidersection = () => {
                                                                 </div>
                                                         </div>
                                                 </div>
-                                                <div class="slide cursor-pointer">
+                                                <div className="slide cursor-pointer">
                                                         <div className='w-[355px] h-[140px] border border-solid border-lightPink rounded-[15px] p-[15px]'>
                                                                 <div className='flex items-center gap-[19px]'>
                                                                         <div>
@@ -184,7 +184,7 @@ const Slidersection = () => {
                                                                 </div>
                                                         </div>
                                                 </div>
-                                                <div class="slide cursor-pointer">
+                                                <div className="slide cursor-pointer">
                                                         <div className='w-[355px] h-[140px] border border-solid border-lightPink rounded-[15px] p-[15px]'>
                                                                 <div className='flex items-center gap-[19px]'>
                                                                         <div>
@@ -201,7 +201,7 @@ const Slidersection = () => {
                                                                 </div>
                                                         </div>
                                                 </div>
-                                                <div class="slide cursor-pointer">
+                                                <div className="slide cursor-pointer">
                                                         <div className='w-[355px] h-[140px] border border-solid border-lightPink rounded-[15px] p-[15px]'>
                                                                 <div className='flex items-center gap-[19px]'>
                                                                         <div>
