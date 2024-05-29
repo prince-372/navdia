@@ -28,11 +28,11 @@ const Trending = () => {
             <SwiperSlide>
               <div className=" grid lg:grid-cols-2 grid-cols-1 lg:pt-[71px] pt-[10px] lg:pb-[60px] pb-0 gap-[20px] items-center px-2">
                 <div>
-                  <p className=" font-Inter font-bold xl:text-[32px] sm:text-[26px] text-[23px] xl:leading-[41px] leading-[32px] text-white max-w-[510px] mx-auto lg:mx-0 text-center lg:text-start">
+                  <p className=" font-Inter font-bold xl:text-[32px] sm:text-[26px] text-[23px] xl:leading-[41px] leading-[32px] text-white lg:max-w-[510px] mx-auto lg:mx-0 text-center lg:text-start">
                     NVIDIA Joins $110 Million Partnership to Help Universities
                     Teach AI Skills
                   </p>
-                  <p className=" font-Inter font-normal text-base text-white max-w-[549px] pt-4 mx-auto lg:mx-0 text-center lg:text-start">
+                  <p className=" font-Inter font-normal text-base text-white lg:max-w-[549px] pt-4 mx-auto lg:mx-0 text-center lg:text-start">
                     The Biden Administration has announced a new $110 million AI
                     partnership between Japan and the United States that
                     includes an initiative to fund research through a

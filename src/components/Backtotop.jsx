@@ -23,7 +23,7 @@ const BackToTop = () => {
     return (
         <>
             <div className='container mx-auto px-3 max-w-[1150px]'>
-                <div onClick={() => setPosition({ ...position, position: { top: 0, left: 0 } })} className="fixed hidden bottom-[3%] right-[2%] z-30 translate-y-[0%] animate-bounce"
+                <div onClick={() => setPosition({ ...position, position: { top: 0, left: 0 } })} className="fixed hidden xl:bottom-[3%] bottom-[8%] right-[2%] z-30 translate-y-[0%] animate-bounce"
                     ref={scrollTop}
                 ><div className='h-[52px] w-[52px] rounded-[50%] border border-solid border-white bg-white p-2  cursor-pointer scroll-smooth transform-[all] transform-[.3s] transform-[linear]  flex justify-center items-center'>
                         <img className=' w-[100px]' src={Backbtn} alt="back" />
