@@ -5,7 +5,7 @@ import elipesbg from '../assets/image/webp/elipesNvda.webp'
 
 const Nvda = () => {
   return (
-    <div  className=' relative xl:pt-[100px] lg:pt-[60px] pt-[17px] overflow-x-clip lg:pb-[97px] pb-[48px]'>
+    <div  className=' relative xl:pt-[100px] lg:pt-[60px] pt-[17px] overflow-x-clip lg:pb-[125px] pb-[48px]'>
         <img className=' absolute top-[0%] left-[-1%]' src={elipesbg} alt="elipesbg" />
         <div className=' max-w-[1140px] container px-3 mx-auto'>
           <div className="grid lg:grid-cols-2 grid-cols-1 lg:gap-[76px] items-center justify-center">
