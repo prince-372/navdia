@@ -25,9 +25,9 @@ const Investsection = () => {
 
 
         return (
-                <div className=' pt-[48px] md:pt-[80px] lg:pt-[136px]'>
+                <div className=' pt-[48px] md:pt-[80px] xl:pt-[136px] lg:pt-[100px]'>
                         <div className='max-[1536px]:max-w-[1140px] container mx-auto px-3 '>
-                                <h2 className=' text-center pb-4 sm:pb-[60px] font-Inter font-bold text-[44px] leading-[46px] md:leading-[57px]'>Why Invest in Nvidia Stock</h2>
+                                <h2 className=' text-center pb-4 sm:pb-[60px] font-Inter font-bold sm:text-[44px] text-[42px] leading-[46px] md:leading-[57px]'>Why Invest in Nvidia Stock</h2>
                                 <div className=' flex flex-wrap flex-row items-center justify-center -mx-3   '>
                                         {
                                                 Items.map((items, index) => (

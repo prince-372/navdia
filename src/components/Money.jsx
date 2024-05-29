@@ -4,7 +4,7 @@ import { Bigcircleright, Smallcircleright } from "./Icons";
 
 const Money = () => {
   return (
-    <div className="lg:pt-[172px] pt-[68px] relative overflow-x pb-[53px]  overflow-x-clip z-10">
+    <div className="xl:pt-[172px] lg:pt-[110px] pt-[68px] relative overflow-x max-lg:pb-[53px] pb-[10px]  overflow-x-clip z-10">
         <span className=" absolute  max-sm:top-[19%] max-md:top-[23%] max-md:right-[-9%] max-lg:top-[23%] max-lg:right-[-9%] lg:top-[21%] lg:right-[-6%] max-sm:right-[-18%] animate-spin">
             <Smallcircleright />
         </span>
