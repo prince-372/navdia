@@ -10,22 +10,25 @@ const Trending = () => {
   return (
     <div className=" lg:pt-[120px] pt-[34px]">
       <div className=" max-w-[1360px] container mx-auto px-3">
-        <div className="shadow-[0px_38px_0px_-9px_#E8F1FD] max-w-[1360px] rounded-[34px] bg-CommonGradient md:py-[78px] py-[40px] xl:px-[110px] lg:px-[70px] px-[20px] relative z-10 ">
-        <h2 className=" font-Inter font-bold sm:leading-[57px] leading-[40px] text-center text-white sm:text-[44px] text-[34px]">
-                Trending about NVIDIA
-              </h2>
+        <div className="shadow-[0px_38px_0px_-9px_#E8F1FD] max-w-[1360px] rounded-[34px] bg-CommonGradient md:pt-[78px] pt-[40px] md:pb-[62px] pb-[30px] xl:px-[110px] lg:px-[70px] px-[20px] relative z-10 ">
+          <h2 className=" font-Inter font-bold sm:text-[44px] text-[27px] sm:leading-[46px] leading-[33px] md:leading-[57px] text-center text-white">
+            Trending about NVIDIA
+          </h2>
           <Swiper
-              loop={true}
+            loop={true}
             pagination={{
-              dynamicBullets: true,
+              el: ".swiper-pagination",
+              type: "bullets",
+              clickable: true,
+              bulletActiveClass: "swiper-pagination-bullet-active",
             }}
             modules={[Pagination]}
             className="mySwiper"
           >
             <SwiperSlide>
-              <div className=" grid lg:grid-cols-2 grid-cols-1 lg:pt-[71px] pt-[10px] pb-[57px] gap-[20px] items-center px-2">
+              <div className=" grid lg:grid-cols-2 grid-cols-1 lg:pt-[71px] pt-[10px] lg:pb-[60px] pb-0 gap-[20px] items-center px-2">
                 <div>
-                  <p className=" font-Inter font-bold sm:text-[32px] text-[22px] sm:leading-[41px] leading-[28px] text-white max-w-[510px] mx-auto lg:mx-0 text-center lg:text-start">
+                  <p className=" font-Inter font-bold xl:text-[32px] sm:text-[26px] text-[23px] xl:leading-[41px] leading-[32px] text-white max-w-[510px] mx-auto lg:mx-0 text-center lg:text-start">
                     NVIDIA Joins $110 Million Partnership to Help Universities
                     Teach AI Skills
                   </p>
@@ -47,9 +50,9 @@ const Trending = () => {
               </div>
             </SwiperSlide>
             <SwiperSlide>
-              <div className=" grid lg:grid-cols-2 grid-cols-1 md:pt-[71px] pt-[10px] gap-[20px] md:pb-[57px] pb-[10px] items-center px-2">
+              <div className=" grid lg:grid-cols-2 grid-cols-1 lg:pt-[71px] pt-[10px] lg:pb-[60px] pb-0 gap-[20px] items-center px-2">
                 <div>
-                  <p className=" font-Inter font-bold sm:text-[32px] text-[22px] sm:leading-[41px] leading-[28px] text-white max-w-[510px] mx-auto lg:mx-0 text-center lg:text-start">
+                  <p className=" font-Inter font-bold xl:text-[32px] sm:text-[26px] text-[23px] xl:leading-[41px] leading-[32px] text-white max-w-[510px] mx-auto lg:mx-0 text-center lg:text-start">
                     NVIDIA Joins $110 Million Partnership to Help Universities
                     Teach AI Skills
                   </p>
@@ -71,9 +74,9 @@ const Trending = () => {
               </div>
             </SwiperSlide>
             <SwiperSlide>
-              <div className=" grid lg:grid-cols-2 grid-cols-1 gap-[20px] md:pt-[71px] pt-[10px] md:pb-[57px] pb-[10px] items-center px-2">
+              <div className=" grid lg:grid-cols-2 grid-cols-1 lg:pt-[71px] pt-[10px] lg:pb-[60px] pb-0 gap-[20px] items-center px-2">
                 <div>
-                  <p className=" font-Inter font-bold sm:text-[32px] text-[22px] sm:leading-[41px] leading-[28px] text-white max-w-[510px] mx-auto lg:mx-0 text-center lg:text-start">
+                  <p className=" font-Inter font-bold xl:text-[32px] sm:text-[26px] text-[23px] xl:leading-[41px] leading-[32px] text-white max-w-[510px] mx-auto lg:mx-0 text-center lg:text-start">
                     NVIDIA Joins $110 Million Partnership to Help Universities
                     Teach AI Skills
                   </p>
@@ -95,6 +98,7 @@ const Trending = () => {
               </div>
             </SwiperSlide>
           </Swiper>
+          <div className="swiper-pagination"></div>
         </div>
       </div>
     </div>

@@ -29,7 +29,7 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <hr className=' w-[1920px] border border-[#4B70A2]'/>
+        <hr className=' w-full border border-[#4B70A2]'/>
         <div className=' max-[1536px]:max-w-[1140px] container px-3 mx-auto'>
           <ul className=' flex flex-wrap justify-between py-[27px]'>
             <a href="" className='font-Inter text-base font-normal text-[#CED2D8] hover:text-white duration-300 hover:duration-300 '>Privacy Policy | Conditions</a>

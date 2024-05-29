@@ -5,10 +5,10 @@ import { Bigcircleright, Smallcircleright } from "./Icons";
 const Money = () => {
   return (
     <div className="xl:pt-[172px] lg:pt-[110px] pt-[68px] relative overflow-x max-lg:pb-[53px] pb-[10px]  overflow-x-clip z-10">
-        <span className=" absolute  max-sm:top-[19%] max-md:top-[23%] max-md:right-[-9%] max-lg:top-[23%] max-lg:right-[-9%] lg:top-[21%] lg:right-[-6%] max-sm:right-[-18%] animate-spin">
+        <span className=" absolute  max-sm:top-[19%] max-md:top-[31%] max-md:right-[-9%] max-lg:top-[30%] max-lg:right-[-9%] lg:top-[37%] lg:right-[-6%] max-sm:right-[-18%] animate-spin">
             <Smallcircleright />
         </span>
-        <span className=" absolute max-sm:top-[-1%] max-md:top-[1%] max-md:right-[-24%] max-lg:top-[1%] max-lg:right-[-19%] lg:top-[1%] lg:right-[-13%] max-sm:right-[-44%]">
+        <span className=" absolute max-sm:top-[-1%] max-md:top-[8%] max-md:right-[-24%] max-lg:top-[8%] max-lg:right-[-19%] lg:top-[12%] lg:right-[-13%] max-sm:right-[-44%]">
             <Bigcircleright/>
         </span>
       <div className=" container px-3 mx-auto">
@@ -25,7 +25,7 @@ const Money = () => {
         </div>
       </div>
       <span className=" absolute translate-x-[-60%] -z-10 -translate-y-[47%]">
-      <Smallcircleright className="animate-spin" />
+      <Smallcircleright/>
       </span>
       <span className=" absolute translate-x-[-57%] -z-10 -translate-y-[49%]">
       <Bigcircleright/>
