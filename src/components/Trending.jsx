@@ -10,7 +10,7 @@ const Trending = () => {
   return (
     <div className=" lg:pt-[120px] pt-[34px]">
       <div className=" max-w-[1360px] container mx-auto px-3">
-        <div className="shadow-[0px_38px_0px_-9px_#E8F1FD] max-w-[1360px] rounded-[34px] bg-CommonGradient md:py-[78px] py-[40px] md:px-[110px] px-[20px] relative z-10 ">
+        <div className="shadow-[0px_38px_0px_-9px_#E8F1FD] max-w-[1360px] rounded-[34px] bg-CommonGradient md:py-[78px] py-[40px] xl:px-[110px] lg:px-[70px] px-[20px] relative z-10 ">
         <h2 className=" font-Inter font-bold sm:leading-[57px] leading-[40px] text-center text-white sm:text-[44px] text-[34px]">
                 Trending about NVIDIA
               </h2>

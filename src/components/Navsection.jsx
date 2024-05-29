@@ -38,8 +38,16 @@ const Navsection = () => {
                 e.preventDefault();
                 if (validateForm()) {
                         console.log('Form submitted successfully!');
+                        setFirstName('');
+                        setLastName('');
+                        setEmail('');
+                        setPhoneNumber('');
+                        setMessage('');
+                        setErrors({});
                 }
-        };
+        
+            };
+            
         return (
                 <div className='bg-[url(./assets/image/webp/hero-bg-img.webp)] bg-cover bg-center bg-no-repeat xl:min-h-[810px] min-h-screen relative mb-[25px] z-10 overflow-x-clip'>
                         <div className='bg-darkBlue flex justify-center overflow-hidden h-[61px]'>
