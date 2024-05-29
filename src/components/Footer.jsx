@@ -4,7 +4,7 @@ import { Facebook, Instragram, Linkdin } from './Icons'
 const Footer = () => {
   return (
     <div className=' bg-[#0B203D] overflow-x-clip relative z-10'>
-      <div className=' sm:w-[191px] w-[80px] sm:h-[191px] h-[80px] bg-CommonGradient2 blur-[110px] absolute -z-10 bottom-[0%] right-[0%]'></div>
+      <div className=' sm:w-[191px] w-[80px] sm:h-[191px] h-[80px] bg-CommonGradient2 blur-[150px] absolute -z-10 bottom-[0%] right-[0%]'></div>
         <div className=' max-[1536px]:max-w-[1140px] container mx-auto px-3 sm:pt-[72px] pt-[20px]'>
           <div className=' flex flex-wrap justify-between sm:pb-[65px] pb-[20px]'>
             <div>

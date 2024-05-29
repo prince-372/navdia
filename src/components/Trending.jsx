@@ -94,30 +94,6 @@ const Trending = () => {
                 </div>
               </div>
             </SwiperSlide>
-            <SwiperSlide>
-              <div className=" grid lg:grid-cols-2 gap-[20px] grid-cols-1 md:pt-[71px] pt-[10px] md:pb-[57px] pb-[10px] items-center px-2">
-                <div>
-                  <p className=" font-Inter font-bold sm:text-[32px] text-[22px] sm:leading-[41px] leading-[28px] text-white max-w-[510px] mx-auto lg:mx-0 text-center lg:text-start">
-                    NVIDIA Joins $110 Million Partnership to Help Universities
-                    Teach AI Skills
-                  </p>
-                  <p className=" font-Inter font-normal text-base text-white max-w-[549px] pt-4 mx-auto lg:mx-0 text-center lg:text-start">
-                    The Biden Administration has announced a new $110 million AI
-                    partnership between Japan and the United States that
-                    includes an initiative to fund research through a
-                    collaboration between the University of Washington and the
-                    University of Tsukuba.
-                  </p>
-                </div>
-                <div className=" flex justify-center lg:justify-start pt-4 lg:pt-0">
-                  <img
-                    className=" border-[6px] border-white rounded-[12px]"
-                    src={sliderImg}
-                    alt="sliderImg"
-                  />
-                </div>
-              </div>
-            </SwiperSlide>
           </Swiper>
         </div>
       </div>

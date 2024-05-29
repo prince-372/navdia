@@ -69,3 +69,22 @@ textarea {
   top: var(--swiper-pagination-top, auto);
   color: white !important;
 }
+
+.swiper-pagination-bullet {
+  width: 16px !important;
+  height: 16px !important;
+  display: inline-block;
+  border-radius: var(--swiper-pagination-bullet-border-radius, 50%);
+  background: white !important;
+  opacity: 1 !important;
+}
+
+.swiper-pagination-bullet-active {
+  opacity: var(--swiper-pagination-bullet-opacity, 1);
+  background: linear-gradient(
+    180deg,
+    #ffffff 10.3%,
+    #ffffff 44.39%,
+    #ffffff 76.15%
+  ) !important;
+}
