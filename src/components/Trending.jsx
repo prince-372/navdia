@@ -8,8 +8,8 @@ import { Pagination } from "swiper/modules";
 
 const Trending = () => {
   return (
-    <div>
-      <div className=" max-w-[1360px] mx-auto px-3">
+    <div className=" pt-[100px]">
+      <div className=" max-w-[1360px] container mx-auto px-3">
         <div className=" mx-w-[1360px] rounded-[34px] bg-CommonGradient md:py-[78px] py-[10px] md:px-[110px] px-[20px] shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)]">
           <Swiper
             pagination={{

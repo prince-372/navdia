@@ -68,7 +68,7 @@ const Navsection = () => {
                                                 </div>
 
                                         </div>
-                                        <div className='bg-white rounded-[32px] flex flex-col justify-center lg:justify-start mx-auto lg:mx-0 w-[337px] sm:w-[493px] mt-[23px] p-4 md:p-[32px] border border-solid border-skyDarkBlue shadow-[0_11px_33.5px_0_#0000001F;]'>
+                                        <div className='bg-white rounded-[32px] flex flex-col justify-center lg:justify-start mx-auto lg:mx-0  l:w-[337px] sm:w-[493px] mt-[23px] p-4 md:p-[32px] border border-solid border-skyDarkBlue shadow-[0_11px_33.5px_0_#0000001F;]'>
                                                 <h2 className='text-black font-Inter font-bold text-xl md:text-2xl pb-5'>Start Trading today!</h2>
                                                 <form onSubmit={handleSubmit}>
                                                         <input type="text" value={firstName} onChange={(e) => setFirstName(e.target.value)} className={`rounded-[30px] p-[13px_24px] bg-skyBlue w-full border border-solid border-skyDarkBlue placeholder:text-grey font-Inter mb-[14px] outline-none ${errors.firstName && 'border-red-500'}`} placeholder='First Name' />

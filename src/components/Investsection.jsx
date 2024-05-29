@@ -8,12 +8,13 @@ const Investsection = () => {
         const Items = [
                 {
                         id: 1,
-                        para: 'Nvidia stock shows exceptional technical strength and boasts a best-possible score of 99 on both its Composite Rating and EPS Rating. Its Relative Strength Rating of 98 also shows that its outperforming.',
+                        para: ( <> <span className='font-bold'> Nvidia stock</span> shows exceptional technical strength and boasts a best-possible score of 99 on both its Composite Rating and EPS Rating. Its Relative Strength Rating of 98 also shows that its outperforming.
+                       </> ),
                         img: investCard1
                 },
                 {
                         id: 2,
-                        para: 'Patient Capital Management, a value investing firm, released its “Patient Capital Opportunity Equity Strategy” first quarter 2024 investor letter. It featured stocks like NVIDIA Corporation (NASDAQ:NVDA) in its Q1 2024 investor letter.',
+                        para:( <>'Patient Capital Management, a value investing firm, released its “Patient Capital Opportunity Equity Strategy” first quarter 2024 investor letter. It featured stocks like <span className=' font-bold'>NVIDIA</span> Corporation (NASDAQ:NVDA) in its Q1 2024 investor letter.'</>),
                         img: investCard2
                 },
                 {
