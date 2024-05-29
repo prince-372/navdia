@@ -11,7 +11,7 @@ const Nvda = () => {
           <div className="grid lg:grid-cols-2 grid-cols-1 lg:gap-[76px] items-center justify-center">
      <div className="flex justify-center items-center">
      <div className=' relative z-10 lg:pt-[57px] pt-0'>
-        <img src={nvdaCard} alt="nvdaCard" />
+        <img className='shadow-[0px_15px_52px_0px_#0000001F]' src={nvdaCard} alt="nvdaCard" />
         <div className=' flex justify-center mt-[5%] sm:mt-0'><img className=' sm:absolute bottom-[-11%] lg:left-[70%] left-[65%] w-[219px] h-[94px]' src={smallCard} alt="smallCard" /></div>
      </div>
      </div>
