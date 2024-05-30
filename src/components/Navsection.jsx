@@ -52,9 +52,9 @@ const Navsection = () => {
       <div className="bg-darkBlue flex justify-center overflow-hidden h-[61px]">
         <div className=" max-[1536px]:max-w-[1140px] container px-3 mx-auto">
           <div className=" flex justify-between items-center ">
-            <a
+            <a aria-label="footer logo"
               className=" text-white font-Inter font-bold sm:text-[32px] text-[28px] leading-[38.73px]"
-              href=""
+              href="#"
             >
               AI STOCKS
             </a>

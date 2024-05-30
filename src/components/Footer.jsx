@@ -11,7 +11,7 @@ const Footer = () => {
         <div className=' max-[1536px]:max-w-[1140px] container mx-auto px-3 sm:pt-[72px] pt-[20px]'>
           <div className=' flex flex-wrap justify-between sm:pb-[65px] pb-[20px]'>
             <div>
-                <a href="">
+                <a aria-label='logo' href="#">
                   <p className=' font-Inter font-bold text-[40px] leading-[48px] text-white'>AI STOCKS</p>
                 </a>
                 <p className=' font-Inter font-normal text-base max-w-[261px] text-[#CED2D8] pt-[15px]'>Empowering Your Financial Future with Intelligent Investments</p>
@@ -35,8 +35,8 @@ const Footer = () => {
         <hr className=' w-full border border-[#4B70A2]'/>
         <div className=' max-[1536px]:max-w-[1140px] container px-3 mx-auto'>
           <ul className=' flex flex-wrap justify-between py-[27px]'>
-            <a href="" className='font-Inter text-base font-normal text-[#CED2D8] hover:text-white duration-300 hover:duration-300 '>Privacy Policy | Conditions</a>
-            <a href="" className=' font-Inter font-normal text-base text-[#CED2D8] hover:text-white duration-300 hover:duration-300  pt-3 sm:pt-0'>Report Abuse/ Spam | Copyright@ {currentYear} </a>
+            <a href="#" aria-label='Privacy' className='font-Inter text-base font-normal text-[#CED2D8] hover:text-white duration-300 hover:duration-300 '>Privacy Policy | Conditions</a>
+            <a href="#" aria-label='Report' className=' font-Inter font-normal text-base text-[#CED2D8] hover:text-white duration-300 hover:duration-300  pt-3 sm:pt-0'>Report Abuse/ Spam | Copyright@ {currentYear} </a>
           </ul>
         </div>
     </div>
