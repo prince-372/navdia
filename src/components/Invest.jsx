@@ -1,5 +1,5 @@
 import React from "react";
-import { Items } from "./common/Helper";
+import { Items } from "./commen/Helper";
 
 
 const Invest = () => {

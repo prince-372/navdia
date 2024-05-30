@@ -2,7 +2,7 @@ import React from "react";
 
 import shadowElipsRight from "../assets/image/webp/shadowElipsRight.webp";
 import shadowElipsLeft from "../assets/image/webp/shadowElipsLeft.webp";
-import { slidesData } from "./common/Helper";
+import { slidesData } from "./commen/Helper";
 
 const Slider = () => {
   return (

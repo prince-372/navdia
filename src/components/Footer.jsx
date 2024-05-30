@@ -1,5 +1,5 @@
 import React from "react";
-import { Facebook, Instragram, Linkdin } from "./common/Icons";
+import { Facebook, Instragram, Linkdin } from "./commen/Icons";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -25,13 +25,13 @@ const Footer = () => {
             </p>
             <div className=" flex gap-[15px] pt-[10px]">
               <div className="w-[35px] cursor-pointer duration-300 hover:duration-300 hover:-translate-y-0.5 h-[35px] flex justify-center items-center rounded-[60px] bg-CommonGradient">
-                <Linkdin />
+                <Linkdin/>
               </div>
               <div className="w-[35px] duration-300 hover:duration-300 hover:-translate-y-0.5 h-[35px] flex justify-center items-center rounded-[60px] bg-CommonGradient">
-                <Instragram />
+                <Instragram/>
               </div>
               <div className="w-[35px] duration-300 hover:duration-300 hover:-translate-y-0.5 h-[35px] flex justify-center items-center rounded-[60px] bg-CommonGradient">
-                <Facebook />
+                <Facebook/>
               </div>
             </div>
           </div>

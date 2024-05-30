@@ -1,15 +1,15 @@
 import React from "react";
 import moneySvg from "../assets/image/svg/moneySvg.svg";
-import { Bigcircleright, Smallcircleright } from "./common/Icons";
+import { Bigcircleright, Smallcircleright } from "./commen/Icons";
 
 const Money = () => {
   return (
     <div className="xl:pt-[172px] lg:pt-[110px] pt-[68px] relative overflow-x max-lg:pb-[53px] pb-[10px]  overflow-x-clip z-10">
       <span className=" absolute  max-sm:top-[19%] max-md:top-[31%] max-md:right-[-9%] max-lg:top-[30%] max-lg:right-[-9%] lg:top-[33%] lg:right-[-6%] max-sm:right-[-18%] animate-spin">
-        <Smallcircleright />
+        <Smallcircleright/>
       </span>
       <span className=" absolute max-sm:top-[-1%] max-md:top-[8%] max-md:right-[-24%] max-lg:top-[8%] max-lg:right-[-19%] lg:top-[12%] lg:right-[-13%] max-sm:right-[-44%]">
-        <Bigcircleright />
+        <Bigcircleright/>
       </span>
       <div className=" container px-3 mx-auto">
         <div className=" flex justify-center">
@@ -28,10 +28,10 @@ const Money = () => {
         </div>
       </div>
       <span className=" absolute translate-x-[-60%] -z-10 -translate-y-[47%]">
-        <Smallcircleright />
+        <Smallcircleright/>
       </span>
       <span className=" absolute translate-x-[-57%] -z-10 -translate-y-[49%]">
-        <Bigcircleright />
+        <Bigcircleright/>
       </span>
     </div>
   );
