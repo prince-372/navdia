@@ -5,7 +5,7 @@ const Footer = () => {
   const currentYear = new Date().getFullYear();
 
   return (
-    <div className=" bg-[#0B203D] overflow-x-clip relative z-10">
+    <div className=" bg-darkBlue overflow-x-clip relative z-10">
       <div className=" sm:w-[191px] w-[80px] sm:h-[191px] h-[80px] bg-CommonGradient2 blur-[150px] absolute -z-10 bottom-[0%] right-[0%]"></div>
       <div className=" max-[1536px]:max-w-[1140px] container mx-auto px-3 sm:pt-[72px] pt-5">
         <div className=" flex flex-wrap justify-between sm:pb-[65px] pb-5">
@@ -15,7 +15,7 @@ const Footer = () => {
                 AI STOCKS
               </p>
             </a>
-            <p className=" font-Inter font-normal text-base max-w-[261px] text-[#CED2D8] pt-[15px]">
+            <p className=" font-Inter font-normal text-base max-w-[261px] text-white1 pt-[15px]">
               Empowering Your Financial Future with Intelligent Investments
             </p>
           </div>
@@ -37,14 +37,14 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <hr className=" w-full border border-[#4B70A2]" />
+      <hr className=" w-full border border-blue1" />
       <div className=" max-[1536px]:max-w-[1140px] container px-3 mx-auto">
         <ul className=" flex flex-wrap justify-between py-[27px]">
           <li>
             <a
               href="#"
               aria-label="Privacy"
-              className="font-Inter text-base font-normal text-[#CED2D8] hover:text-white duration-300 hover:duration-300 "
+              className="font-Inter text-base font-normal text-white1 hover:text-white duration-300 hover:duration-300 "
             >
               Privacy Policy | Conditions
             </a>
@@ -53,7 +53,7 @@ const Footer = () => {
             <a
               href="#"
               aria-label="Report"
-              className=" font-Inter font-normal text-base text-[#CED2D8] hover:text-white duration-300 hover:duration-300  pt-3 sm:pt-0"
+              className=" font-Inter font-normal text-base text-white1 hover:text-white duration-300 hover:duration-300  pt-3 sm:pt-0"
             >
               Report Abuse/ Spam | Copyright@ {currentYear}{" "}
             </a>

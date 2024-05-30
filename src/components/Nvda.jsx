@@ -33,7 +33,7 @@ const Nvda = () => {
             <p className=" font-Inter sm:text-[44px] text-[27px] sm:leading-[46px] leading-[33px] md:leading-[57px] font-bold max-w-[521px] text-black mx-auto lg:mx-0 text-center lg:text-start md:pt-[88px] sm:pt-8">
               3 Reasons to Buy Nvidia Stock with AI
             </p>
-            <p className="font-Inter text-base font-normal max-w-[489px] lg:pt-[67px]  text-[#353739] pt-4 mx-auto lg:mx-0 text-center lg:text-start">
+            <p className="font-Inter text-base font-normal max-w-[489px] lg:pt-[67px]  text-black3 pt-4 mx-auto lg:mx-0 text-center lg:text-start">
               The GPU maker has become synonymous with AI and is taking that
               technology to the next level.
             </p>
