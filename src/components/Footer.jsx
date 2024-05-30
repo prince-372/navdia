@@ -35,8 +35,8 @@ const Footer = () => {
         <hr className=' w-full border border-[#4B70A2]'/>
         <div className=' max-[1536px]:max-w-[1140px] container px-3 mx-auto'>
           <ul className=' flex flex-wrap justify-between py-[27px]'>
-            <a href="#" aria-label='Privacy' className='font-Inter text-base font-normal text-[#CED2D8] hover:text-white duration-300 hover:duration-300 '>Privacy Policy | Conditions</a>
-            <a href="#" aria-label='Report' className=' font-Inter font-normal text-base text-[#CED2D8] hover:text-white duration-300 hover:duration-300  pt-3 sm:pt-0'>Report Abuse/ Spam | Copyright@ {currentYear} </a>
+            <li><a href="#" aria-label='Privacy' className='font-Inter text-base font-normal text-[#CED2D8] hover:text-white duration-300 hover:duration-300 '>Privacy Policy | Conditions</a></li>
+            <li><a href="#" aria-label='Report' className=' font-Inter font-normal text-base text-[#CED2D8] hover:text-white duration-300 hover:duration-300  pt-3 sm:pt-0'>Report Abuse/ Spam | Copyright@ {currentYear} </a></li>
           </ul>
         </div>
     </div>
