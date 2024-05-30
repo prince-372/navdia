@@ -4,7 +4,7 @@ import heroDashedElips from "../assets/image/webp/heroDashedElips.webp";
 import circleElips from "../assets/image/webp/colorElips.webp";
 import heroElips from "../assets/image/webp/heroCircleElips.webp";
 
-const Navsection = () => {
+const Header = () => {
   const [firstName, setFirstName] = useState("");
   const [lastName, setLastName] = useState("");
   const [email, setEmail] = useState("");
@@ -48,7 +48,7 @@ const Navsection = () => {
   };
 
   return (
-    <div className="bg-[url(./assets/image/webp/hero-bg-img.webp)] bg-cover bg-center bg-no-repeat xl:min-h-[810px] min-h-screen relative mb-[25px] z-10 overflow-x-clip">
+    <div className="bg-[url(./assets/image/webp/heroBgImg.webp)] bg-cover bg-center bg-no-repeat xl:min-h-[810px] min-h-screen relative mb-[25px] z-10 overflow-x-clip">
       <div className="bg-darkBlue flex justify-center overflow-hidden h-[61px]">
         <div className=" max-[1536px]:max-w-[1140px] container px-3 mx-auto">
           <div className=" flex justify-between items-center ">
@@ -184,4 +184,4 @@ const Navsection = () => {
   );
 };
 
-export default Navsection;
+export default Header;
