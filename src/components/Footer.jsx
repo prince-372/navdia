@@ -1,7 +1,10 @@
 import React from 'react'
 import { Facebook, Instragram, Linkdin } from './Icons'
 
+
 const Footer = () => {
+  const currentYear = new Date().getFullYear();
+
   return (
     <div className=' bg-[#0B203D] overflow-x-clip relative z-10'>
       <div className=' sm:w-[191px] w-[80px] sm:h-[191px] h-[80px] bg-CommonGradient2 blur-[150px] absolute -z-10 bottom-[0%] right-[0%]'></div>
@@ -33,7 +36,7 @@ const Footer = () => {
         <div className=' max-[1536px]:max-w-[1140px] container px-3 mx-auto'>
           <ul className=' flex flex-wrap justify-between py-[27px]'>
             <a href="" className='font-Inter text-base font-normal text-[#CED2D8] hover:text-white duration-300 hover:duration-300 '>Privacy Policy | Conditions</a>
-            <a href="" className=' font-Inter font-normal text-base text-[#CED2D8] hover:text-white duration-300 hover:duration-300  pt-3 sm:pt-0'>Report Abuse/ Spam | Copyright@{new Date().getFullYear()}</a>
+            <a href="" className=' font-Inter font-normal text-base text-[#CED2D8] hover:text-white duration-300 hover:duration-300  pt-3 sm:pt-0'>Report Abuse/ Spam | Copyright@ {currentYear} </a>
           </ul>
         </div>
     </div>
